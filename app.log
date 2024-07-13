@@ -1114,3 +1114,25 @@
 2024-07-13 19:17:18,986 - INFO - 127.0.0.1 - - [13/Jul/2024 19:17:18] "GET /admin HTTP/1.1" 200 -
 2024-07-13 19:17:19,020 - INFO - 127.0.0.1 - - [13/Jul/2024 19:17:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2024-07-13 19:17:19,021 - INFO - 127.0.0.1 - - [13/Jul/2024 19:17:19] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 19:23:55,266 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-13 19:23:55,266 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-13 19:23:55,272 - INFO -  * Restarting with stat
+2024-07-13 19:23:58,269 - WARNING -  * Debugger is active!
+2024-07-13 19:23:58,270 - INFO -  * Debugger PIN: 182-388-924
+2024-07-13 19:24:01,717 - INFO - 127.0.0.1 - - [13/Jul/2024 19:24:01] "GET /admin HTTP/1.1" 200 -
+2024-07-13 19:24:01,755 - INFO - 127.0.0.1 - - [13/Jul/2024 19:24:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 19:24:01,759 - INFO - 127.0.0.1 - - [13/Jul/2024 19:24:01] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 19:24:03,774 - INFO - 127.0.0.1 - - [13/Jul/2024 19:24:03] "GET / HTTP/1.1" 200 -
+2024-07-13 19:24:03,815 - INFO - 127.0.0.1 - - [13/Jul/2024 19:24:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 19:24:03,821 - INFO - 127.0.0.1 - - [13/Jul/2024 19:24:03] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 19:25:42,243 - INFO - 127.0.0.1 - - [13/Jul/2024 19:25:42] "GET / HTTP/1.1" 200 -
+2024-07-13 19:25:42,278 - INFO - 127.0.0.1 - - [13/Jul/2024 19:25:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 19:25:42,279 - INFO - 127.0.0.1 - - [13/Jul/2024 19:25:42] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 19:25:51,167 - INFO - 127.0.0.1 - - [13/Jul/2024 19:25:51] "[32mPOST /upvote/17 HTTP/1.1[0m" 302 -
+2024-07-13 19:25:51,213 - INFO - 127.0.0.1 - - [13/Jul/2024 19:25:51] "GET / HTTP/1.1" 200 -
+2024-07-13 19:25:51,261 - INFO - 127.0.0.1 - - [13/Jul/2024 19:25:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 19:25:51,264 - INFO - 127.0.0.1 - - [13/Jul/2024 19:25:51] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 19:26:08,082 - INFO - 127.0.0.1 - - [13/Jul/2024 19:26:08] "GET / HTTP/1.1" 200 -
+2024-07-13 19:26:08,115 - INFO - 127.0.0.1 - - [13/Jul/2024 19:26:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 19:26:08,116 - INFO - 127.0.0.1 - - [13/Jul/2024 19:26:08] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
