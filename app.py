@@ -132,7 +132,7 @@ def index():
         db.session.commit()
     tracks = Track.query.filter_by(
         playlist_id=current_playlist.id).order_by(Track.upvotes.desc()).all()
-    return render_template('index.html', tracks=tracks)
+    return render_template('index.html', title='Current Requests', tracks=tracks)
 
 
 @app.route('/request', methods=['POST'])
@@ -169,7 +169,7 @@ def admin():
     current_playlist = Playlist.query.filter_by(ended_at=None).first()
     tracks = Track.query.filter_by(
         playlist_id=current_playlist.id).order_by(Track.upvotes.desc()).all()
-    return render_template('admin.html', tracks=tracks)
+    return render_template('admin.html', title='DJ Dashboard', tracks=tracks)
 
 
 @app.route('/mark_played/<int:track_id>', methods=['POST'])
@@ -221,7 +221,7 @@ def end_playlist():
 def history():
     user_tracks = Track.query.filter_by(submitted_by=current_user.id).all()
     playlists = Playlist.query.filter(Playlist.ended_at != None).all()
-    return render_template('history.html', user_tracks=user_tracks, playlists=playlists)
+    return render_template('history.html', title='History', user_tracks=user_tracks, playlists=playlists)
 
 
 @app.route('/login', methods=['GET', 'POST'])

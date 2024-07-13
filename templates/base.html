@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="header-container">
             <div id="branding">
                 <h1><a href="{{ url_for('index') }}">Request A Song - DJ Robzilla</a></h1>
             </div>
@@ -31,9 +31,10 @@
             </nav>
         </div>
     </header>
-
     <div class="container">
-        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% include 'sidebar.html' %}
+        <div class="content">
+            {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 <div class="flash-messages">
                 {% for category, message in messages %}
@@ -42,9 +43,8 @@
                 </div>
             {% endif %}
         {% endwith %}
-
-        {% block content %}
-        {% endblock %}
+            {% block content %}{% endblock %}
+        </div>
     </div>
 
     <footer>

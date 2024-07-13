@@ -475,3 +475,127 @@
 2024-07-12 20:57:05,424 - INFO - 127.0.0.1 - - [12/Jul/2024 20:57:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2024-07-12 20:57:40,415 - INFO - 127.0.0.1 - - [12/Jul/2024 20:57:40] "GET /admin HTTP/1.1" 200 -
 2024-07-12 20:57:40,443 - INFO - 127.0.0.1 - - [12/Jul/2024 20:57:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 11:44:23,024 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-13 11:44:23,025 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-13 11:44:23,053 - INFO -  * Restarting with stat
+2024-07-13 11:44:26,103 - WARNING -  * Debugger is active!
+2024-07-13 11:44:26,104 - INFO -  * Debugger PIN: 182-388-924
+2024-07-13 11:45:01,157 - INFO - 127.0.0.1 - - [13/Jul/2024 11:45:01] "GET / HTTP/1.1" 200 -
+2024-07-13 11:45:01,195 - INFO - 127.0.0.1 - - [13/Jul/2024 11:45:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 11:46:18,959 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/app.py', reloading
+2024-07-13 11:46:19,106 - INFO -  * Restarting with stat
+2024-07-13 11:46:29,412 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-13 11:46:29,413 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-13 11:46:29,419 - INFO -  * Restarting with stat
+2024-07-13 11:46:32,397 - WARNING -  * Debugger is active!
+2024-07-13 11:46:32,397 - INFO -  * Debugger PIN: 182-388-924
+2024-07-13 11:46:33,309 - INFO - 127.0.0.1 - - [13/Jul/2024 11:46:33] "GET / HTTP/1.1" 200 -
+2024-07-13 11:46:33,341 - INFO - 127.0.0.1 - - [13/Jul/2024 11:46:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 11:47:09,096 - INFO - 127.0.0.1 - - [13/Jul/2024 11:47:09] "GET / HTTP/1.1" 200 -
+2024-07-13 11:47:09,127 - INFO - 127.0.0.1 - - [13/Jul/2024 11:47:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 11:50:59,143 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/app.py', reloading
+2024-07-13 11:50:59,221 - INFO -  * Restarting with stat
+2024-07-13 11:51:02,543 - WARNING -  * Debugger is active!
+2024-07-13 11:51:02,543 - INFO -  * Debugger PIN: 182-388-924
+2024-07-13 11:51:25,273 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/app.py', reloading
+2024-07-13 11:51:25,326 - INFO -  * Restarting with stat
+2024-07-13 11:51:28,693 - WARNING -  * Debugger is active!
+2024-07-13 11:51:28,693 - INFO -  * Debugger PIN: 182-388-924
+2024-07-13 11:52:02,209 - INFO - 127.0.0.1 - - [13/Jul/2024 11:52:02] "GET / HTTP/1.1" 200 -
+2024-07-13 11:52:02,245 - INFO - 127.0.0.1 - - [13/Jul/2024 11:52:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 11:52:03,826 - INFO - 127.0.0.1 - - [13/Jul/2024 11:52:03] "GET /history HTTP/1.1" 200 -
+2024-07-13 11:52:03,861 - INFO - 127.0.0.1 - - [13/Jul/2024 11:52:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:05:13,791 - INFO - 127.0.0.1 - - [13/Jul/2024 12:05:13] "GET /history HTTP/1.1" 200 -
+2024-07-13 12:05:13,818 - INFO - 127.0.0.1 - - [13/Jul/2024 12:05:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:11:07,392 - INFO - 127.0.0.1 - - [13/Jul/2024 12:11:07] "GET /history HTTP/1.1" 200 -
+2024-07-13 12:11:07,421 - INFO - 127.0.0.1 - - [13/Jul/2024 12:11:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:11:09,211 - INFO - 127.0.0.1 - - [13/Jul/2024 12:11:09] "GET /history HTTP/1.1" 200 -
+2024-07-13 12:11:09,235 - INFO - 127.0.0.1 - - [13/Jul/2024 12:11:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:11:16,415 - INFO - 127.0.0.1 - - [13/Jul/2024 12:11:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:14:42,607 - INFO - 127.0.0.1 - - [13/Jul/2024 12:14:42] "GET /history HTTP/1.1" 200 -
+2024-07-13 12:14:42,645 - INFO - 127.0.0.1 - - [13/Jul/2024 12:14:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:15:29,778 - INFO - 127.0.0.1 - - [13/Jul/2024 12:15:29] "GET / HTTP/1.1" 200 -
+2024-07-13 12:15:29,815 - INFO - 127.0.0.1 - - [13/Jul/2024 12:15:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:15:32,181 - INFO - 127.0.0.1 - - [13/Jul/2024 12:15:32] "GET /history HTTP/1.1" 200 -
+2024-07-13 12:15:32,215 - INFO - 127.0.0.1 - - [13/Jul/2024 12:15:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:15:33,989 - INFO - 127.0.0.1 - - [13/Jul/2024 12:15:33] "GET /admin HTTP/1.1" 200 -
+2024-07-13 12:15:34,022 - INFO - 127.0.0.1 - - [13/Jul/2024 12:15:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:15:41,448 - INFO - 127.0.0.1 - - [13/Jul/2024 12:15:41] "GET /history HTTP/1.1" 200 -
+2024-07-13 12:15:41,483 - INFO - 127.0.0.1 - - [13/Jul/2024 12:15:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:15:42,638 - INFO - 127.0.0.1 - - [13/Jul/2024 12:15:42] "GET / HTTP/1.1" 200 -
+2024-07-13 12:15:42,677 - INFO - 127.0.0.1 - - [13/Jul/2024 12:15:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:16:28,238 - INFO - 127.0.0.1 - - [13/Jul/2024 12:16:28] "GET / HTTP/1.1" 200 -
+2024-07-13 12:16:28,264 - INFO - 127.0.0.1 - - [13/Jul/2024 12:16:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:16:42,674 - INFO - 127.0.0.1 - - [13/Jul/2024 12:16:42] "[32mPOST /upvote/17 HTTP/1.1[0m" 302 -
+2024-07-13 12:16:42,711 - INFO - 127.0.0.1 - - [13/Jul/2024 12:16:42] "GET / HTTP/1.1" 200 -
+2024-07-13 12:16:42,749 - INFO - 127.0.0.1 - - [13/Jul/2024 12:16:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:16:51,256 - INFO - 127.0.0.1 - - [13/Jul/2024 12:16:51] "[32mPOST /upvote/16 HTTP/1.1[0m" 302 -
+2024-07-13 12:16:51,287 - INFO - 127.0.0.1 - - [13/Jul/2024 12:16:51] "GET / HTTP/1.1" 200 -
+2024-07-13 12:16:51,320 - INFO - 127.0.0.1 - - [13/Jul/2024 12:16:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:17:10,958 - INFO - Flash Message - Category: success, Message: Track requested successfully by 1!
+2024-07-13 12:17:10,959 - INFO - 127.0.0.1 - - [13/Jul/2024 12:17:10] "[32mPOST /request HTTP/1.1[0m" 302 -
+2024-07-13 12:17:10,993 - INFO - 127.0.0.1 - - [13/Jul/2024 12:17:10] "GET / HTTP/1.1" 200 -
+2024-07-13 12:17:11,027 - INFO - 127.0.0.1 - - [13/Jul/2024 12:17:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:19:37,785 - INFO - 127.0.0.1 - - [13/Jul/2024 12:19:37] "GET / HTTP/1.1" 200 -
+2024-07-13 12:19:37,815 - INFO - 127.0.0.1 - - [13/Jul/2024 12:19:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:19:40,554 - INFO - 127.0.0.1 - - [13/Jul/2024 12:19:40] "[32mPOST /upvote/17 HTTP/1.1[0m" 302 -
+2024-07-13 12:19:40,590 - INFO - 127.0.0.1 - - [13/Jul/2024 12:19:40] "GET / HTTP/1.1" 200 -
+2024-07-13 12:19:40,623 - INFO - 127.0.0.1 - - [13/Jul/2024 12:19:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:19:51,024 - INFO - Flash Message - Category: success, Message: Track requested successfully by 1!
+2024-07-13 12:19:51,025 - INFO - 127.0.0.1 - - [13/Jul/2024 12:19:51] "[32mPOST /request HTTP/1.1[0m" 302 -
+2024-07-13 12:19:51,062 - INFO - 127.0.0.1 - - [13/Jul/2024 12:19:51] "GET / HTTP/1.1" 200 -
+2024-07-13 12:19:51,096 - INFO - 127.0.0.1 - - [13/Jul/2024 12:19:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:21:03,818 - INFO - 127.0.0.1 - - [13/Jul/2024 12:21:03] "GET / HTTP/1.1" 200 -
+2024-07-13 12:21:03,845 - INFO - 127.0.0.1 - - [13/Jul/2024 12:21:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:21:05,649 - INFO - 127.0.0.1 - - [13/Jul/2024 12:21:05] "[32mPOST /upvote/17 HTTP/1.1[0m" 302 -
+2024-07-13 12:21:05,691 - INFO - 127.0.0.1 - - [13/Jul/2024 12:21:05] "GET / HTTP/1.1" 200 -
+2024-07-13 12:21:05,727 - INFO - 127.0.0.1 - - [13/Jul/2024 12:21:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:21:24,038 - INFO - Flash Message - Category: success, Message: Track requested successfully by 1!
+2024-07-13 12:21:24,040 - INFO - 127.0.0.1 - - [13/Jul/2024 12:21:24] "[32mPOST /request HTTP/1.1[0m" 302 -
+2024-07-13 12:21:24,077 - INFO - 127.0.0.1 - - [13/Jul/2024 12:21:24] "GET / HTTP/1.1" 200 -
+2024-07-13 12:21:24,111 - INFO - 127.0.0.1 - - [13/Jul/2024 12:21:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:24:23,415 - INFO - 127.0.0.1 - - [13/Jul/2024 12:24:23] "GET / HTTP/1.1" 200 -
+2024-07-13 12:24:23,442 - INFO - 127.0.0.1 - - [13/Jul/2024 12:24:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:24:39,375 - INFO - Flash Message - Category: success, Message: Track requested successfully by 1!
+2024-07-13 12:24:39,376 - INFO - 127.0.0.1 - - [13/Jul/2024 12:24:39] "[32mPOST /request HTTP/1.1[0m" 302 -
+2024-07-13 12:24:39,413 - INFO - 127.0.0.1 - - [13/Jul/2024 12:24:39] "GET / HTTP/1.1" 200 -
+2024-07-13 12:24:39,450 - INFO - 127.0.0.1 - - [13/Jul/2024 12:24:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:29:21,616 - INFO - 127.0.0.1 - - [13/Jul/2024 12:29:21] "GET / HTTP/1.1" 200 -
+2024-07-13 12:29:21,645 - INFO - 127.0.0.1 - - [13/Jul/2024 12:29:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:29:33,996 - INFO - Flash Message - Category: success, Message: Track requested successfully by 1!
+2024-07-13 12:29:33,997 - INFO - 127.0.0.1 - - [13/Jul/2024 12:29:33] "[32mPOST /request HTTP/1.1[0m" 302 -
+2024-07-13 12:29:34,039 - INFO - 127.0.0.1 - - [13/Jul/2024 12:29:34] "GET / HTTP/1.1" 200 -
+2024-07-13 12:29:34,074 - INFO - 127.0.0.1 - - [13/Jul/2024 12:29:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:30:53,055 - INFO - 127.0.0.1 - - [13/Jul/2024 12:30:53] "GET / HTTP/1.1" 200 -
+2024-07-13 12:30:53,092 - INFO - 127.0.0.1 - - [13/Jul/2024 12:30:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:40:34,681 - INFO - 127.0.0.1 - - [13/Jul/2024 12:40:34] "GET / HTTP/1.1" 200 -
+2024-07-13 12:40:34,711 - INFO - 127.0.0.1 - - [13/Jul/2024 12:40:34] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:41:05,631 - INFO - 127.0.0.1 - - [13/Jul/2024 12:41:05] "GET / HTTP/1.1" 200 -
+2024-07-13 12:41:05,664 - INFO - 127.0.0.1 - - [13/Jul/2024 12:41:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:41:13,890 - INFO - 127.0.0.1 - - [13/Jul/2024 12:41:13] "GET / HTTP/1.1" 200 -
+2024-07-13 12:41:13,919 - INFO - 127.0.0.1 - - [13/Jul/2024 12:41:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:41:30,406 - INFO - 127.0.0.1 - - [13/Jul/2024 12:41:30] "GET / HTTP/1.1" 200 -
+2024-07-13 12:41:30,433 - INFO - 127.0.0.1 - - [13/Jul/2024 12:41:30] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:41:42,084 - INFO - 127.0.0.1 - - [13/Jul/2024 12:41:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:44:36,949 - INFO - 127.0.0.1 - - [13/Jul/2024 12:44:36] "GET / HTTP/1.1" 200 -
+2024-07-13 12:44:36,981 - INFO - 127.0.0.1 - - [13/Jul/2024 12:44:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:44:39,479 - INFO - 127.0.0.1 - - [13/Jul/2024 12:44:39] "GET / HTTP/1.1" 200 -
+2024-07-13 12:44:39,509 - INFO - 127.0.0.1 - - [13/Jul/2024 12:44:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 12:46:07,033 - INFO - 127.0.0.1 - - [13/Jul/2024 12:46:07] "GET / HTTP/1.1" 200 -
+2024-07-13 12:46:07,067 - INFO - 127.0.0.1 - - [13/Jul/2024 12:46:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:48:27,745 - INFO - 127.0.0.1 - - [13/Jul/2024 12:48:27] "GET / HTTP/1.1" 200 -
+2024-07-13 12:48:27,785 - INFO - 127.0.0.1 - - [13/Jul/2024 12:48:27] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:48:44,194 - INFO - 127.0.0.1 - - [13/Jul/2024 12:48:44] "GET / HTTP/1.1" 200 -
+2024-07-13 12:48:44,220 - INFO - 127.0.0.1 - - [13/Jul/2024 12:48:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:49:03,143 - INFO - 127.0.0.1 - - [13/Jul/2024 12:49:03] "GET / HTTP/1.1" 200 -
+2024-07-13 12:49:03,168 - INFO - 127.0.0.1 - - [13/Jul/2024 12:49:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:49:23,753 - INFO - 127.0.0.1 - - [13/Jul/2024 12:49:23] "GET / HTTP/1.1" 200 -
+2024-07-13 12:49:23,782 - INFO - 127.0.0.1 - - [13/Jul/2024 12:49:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:50:48,234 - INFO - 127.0.0.1 - - [13/Jul/2024 12:50:48] "GET / HTTP/1.1" 200 -
+2024-07-13 12:50:48,266 - INFO - 127.0.0.1 - - [13/Jul/2024 12:50:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:52:07,981 - INFO - 127.0.0.1 - - [13/Jul/2024 12:52:07] "GET / HTTP/1.1" 200 -
+2024-07-13 12:52:08,012 - INFO - 127.0.0.1 - - [13/Jul/2024 12:52:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 12:52:20,358 - INFO - 127.0.0.1 - - [13/Jul/2024 12:52:20] "GET / HTTP/1.1" 200 -
+2024-07-13 12:52:20,381 - INFO - 127.0.0.1 - - [13/Jul/2024 12:52:20] "GET /static/css/style.css HTTP/1.1" 200 -
