@@ -1092,3 +1092,25 @@
 2024-07-13 18:53:01,893 - INFO - 127.0.0.1 - - [13/Jul/2024 18:53:01] "GET / HTTP/1.1" 200 -
 2024-07-13 18:53:01,925 - INFO - 127.0.0.1 - - [13/Jul/2024 18:53:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2024-07-13 18:53:01,927 - INFO - 127.0.0.1 - - [13/Jul/2024 18:53:01] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 19:16:24,663 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-13 19:16:24,663 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-13 19:16:24,669 - INFO -  * Restarting with stat
+2024-07-13 19:16:27,807 - WARNING -  * Debugger is active!
+2024-07-13 19:16:27,807 - INFO -  * Debugger PIN: 182-388-924
+2024-07-13 19:16:45,571 - INFO - 127.0.0.1 - - [13/Jul/2024 19:16:45] "GET / HTTP/1.1" 200 -
+2024-07-13 19:16:45,616 - INFO - 127.0.0.1 - - [13/Jul/2024 19:16:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 19:16:45,618 - INFO - 127.0.0.1 - - [13/Jul/2024 19:16:45] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 19:16:48,233 - INFO - 127.0.0.1 - - [13/Jul/2024 19:16:48] "GET /admin HTTP/1.1" 200 -
+2024-07-13 19:16:48,274 - INFO - 127.0.0.1 - - [13/Jul/2024 19:16:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 19:16:48,274 - INFO - 127.0.0.1 - - [13/Jul/2024 19:16:48] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 19:17:06,673 - INFO - Flash Message - Category: success, Message: Track "hyuh" marked as played.
+2024-07-13 19:17:06,674 - INFO - 127.0.0.1 - - [13/Jul/2024 19:17:06] "[32mPOST /mark_played/17 HTTP/1.1[0m" 302 -
+2024-07-13 19:17:06,722 - INFO - 127.0.0.1 - - [13/Jul/2024 19:17:06] "GET /admin HTTP/1.1" 200 -
+2024-07-13 19:17:06,767 - INFO - 127.0.0.1 - - [13/Jul/2024 19:17:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 19:17:06,769 - INFO - 127.0.0.1 - - [13/Jul/2024 19:17:06] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 19:17:18,941 - INFO - Flash Message - Category: success, Message: Track "request insanity" marked as played.
+2024-07-13 19:17:18,942 - INFO - 127.0.0.1 - - [13/Jul/2024 19:17:18] "[32mPOST /mark_played/16 HTTP/1.1[0m" 302 -
+2024-07-13 19:17:18,986 - INFO - 127.0.0.1 - - [13/Jul/2024 19:17:18] "GET /admin HTTP/1.1" 200 -
+2024-07-13 19:17:19,020 - INFO - 127.0.0.1 - - [13/Jul/2024 19:17:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 19:17:19,021 - INFO - 127.0.0.1 - - [13/Jul/2024 19:17:19] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
