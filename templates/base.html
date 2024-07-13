@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Request a Song - DJ Robzilla{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    {% block additional_styles %}{% endblock %}
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><a href="{{ url_for('index') }}">Request A Song - DJ Robzilla</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Request</a></li>
+                    {% if current_user.is_authenticated %}
+                        <li><a href="{{ url_for('history') }}">My History</a></li>
+                        {% if current_user.is_admin %}
+                            <li><a href="{{ url_for('admin') }}">DJ Panel</a></li>
+                        {% endif %}
+                        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                    {% else %}
+                        <li><a href="{{ url_for('login') }}">Login</a></li>
+                        <li><a href="{{ url_for('register') }}">Register</a></li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <div class="flash-messages">
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 DJ Request App. All rights reserved.</p>
+        </div>
+    </footer>
+
+    {% block scripts %}{% endblock %}
+</body>
+</html>

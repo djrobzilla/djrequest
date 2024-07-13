@@ -1,0 +1,163 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #bbb 1px solid;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+.highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+.played { color: green; }
+.unplayed { color: red; }
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table tr.played {
+    text-decoration: line-through;
+    color: green;
+}
+
+table tr.unplayed {
+    color: rgb(31, 31, 31)(0, 51, 255);
+}
+
+table td.played {
+    text-decoration: line-through;
+    color: green;
+}
+
+table td.played2 {
+    color: green;
+}
+
+table td.unplayed {
+    color: rgb(31, 31, 31)(0, 51, 255);
+}
+
+/* Flash Messages Styling */
+.flash-messages {
+    margin-bottom: 20px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+/* Button Styling */
+button {
+    background-color: #1a73e8; /* Dark blue background */
+    color: #fff; /* Light text */
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #155ab6; 
+}
+
+/* Upvote Button Styling */
+.upvote-button {
+    background-color: #87ceeb; 
+    color: #1f1f1f;
+}
+
+.upvote-button:hover {
+    background-color: #6bb7d6;
+    color: #1f1f1f;
+}

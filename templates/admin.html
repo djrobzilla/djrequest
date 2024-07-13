@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}DJ Panel - DJ Request App{% endblock %}
+
+{% block content %}
+    <h1>DJ Admin Panel</h1>
+    
+    <p>Welcome, {{ current_user.username }}! 
+        <form action="{{ url_for('logout') }}" method="post" style="display:inline;">
+        <button type="submit">Logout</button>
+    </form>
+    </p>
+
+    <h2>Current Playlist</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Submitted at</th>
+                <th>Requested by</th>
+                <th>Upvotes</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for track in tracks %}
+            <tr>
+                <td class="{{ 'played' if track.played_at else '' }}">{{ track.title }}</td>
+                <td class="{{ 'played' if track.played_at else '' }}">{{ track.artist }}</td>
+                <td>{{ track.submitted_at.strftime('%B %d, %Y %I:%M %p') }}</td>
+                <td>{{ track.user.username if track.user else 'Anonymous' }}</td>
+                <td>{{ track.upvotes }}</td>
+                <td class="{{ 'played2' if track.played_at else 'unplayed' }}">
+                    {% if not track.played_at %}
+                    <form action="{{ url_for('mark_played', track_id=track.id) }}" method="post" style="display:inline;">
+                        <button type="submit">Mark as Played</button>
+                    </form>
+                    {% else %}
+                    <form action="{{ url_for('mark_unplayed', track_id=track.id) }}" method="post" style="display:inline;">
+                        <button type="submit">Mark as Unplayed</button>
+                    </form>
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Playlist Controls</h2>
+    <form action="{{ url_for('end_playlist') }}" method="post" style="display:inline;" onsubmit="return confirm('Are you sure you want to end the current playlist?');">
+        <button type="submit">End Current Playlist</button>
+    </form>
+
+    <h2>Navigation</h2>
+    <ul>
+        <li><a href="{{ url_for('index') }}">Back to Main Page</a></li>
+    </ul>
+{% endblock %}

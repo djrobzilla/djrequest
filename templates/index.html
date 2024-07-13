@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}Home - DJ Request App{% endblock %}
+
+{% block content %}
+    <h1>Current Requests</h1>
+    
+    {% if current_user.is_authenticated %}
+        <p>Welcome, {{ current_user.username }}! 
+            <form action="{{ url_for('logout') }}" method="post" style="display:inline;">
+            <button type="submit">Logout</button>
+            </form>
+        </p>
+    {% else %}
+        <p><a href="{{ url_for('login') }}">Login</a> or <a href="{{ url_for('register') }}">Register</a></p>
+    {% endif %}
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Played</th>
+                <th>Requested by</th>
+                <th>Upvotes</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for track in tracks  %}
+            <tr>
+                <td class="{{ 'played' if track.played_at else '' }}">{{ track.title }}</td>
+                <td class="{{ 'played' if track.played_at else '' }}">{{ track.artist }}</td>
+                <td class="{{ 'played2' if track.played_at else 'unplayed' }}">
+                    {% if track.played_at %}
+                        Played at {{ track.played_at.strftime('%B %d, %Y %I:%M %p') }}
+                    {% else %}
+                        Not played
+                    {% endif %}
+                </td>
+                <td>{{ track.user.username if track.user else 'Anonymous' }}</td>
+                <td>{{ track.upvotes }}</td>
+                <td>
+                    <form action="{{ url_for('upvote', track_id=track.id) }}" method="post" style="display:inline;">
+                        <button type="submit" class="upvote-button">Upvote</button>
+                    </form>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Submit a Request</h2>
+    <form action="{{ url_for('request_track') }}" method="post">
+        <input type="text" name="title" placeholder="Track Title" required>
+        <input type="text" name="artist" placeholder="Artist" required>
+        <p>
+        <button type="submit">Submit Request</button>
+    </p>
+    </form>
+
+    {% if current_user.is_authenticated %}
+    <form action="{{ url_for('history') }}" method="get" style="display:inline;">
+        <button type="submit">View My Request History</button>
+    </form>
+    {% endif %}
+{% endblock %}

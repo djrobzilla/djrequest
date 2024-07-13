@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block title %}Request History - DJ Request App{% endblock %}
+
+{% block content %}
+    <h1>Your Request History</h1>
+    
+    <p>Welcome, {{ current_user.username }}! 
+        <form action="{{ url_for('logout') }}" method="post" style="display:inline;">
+        <button type="submit">Logout</button>
+        </form>
+    </p>
+
+    <h2>Your Submitted Tracks</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Submitted At</th>
+                <th>Status</th>
+                <th>Upvotes</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for track in user_tracks %}
+            <tr>
+                <td>{{ track.title }}</td>
+                <td>{{ track.artist }}</td>
+                <td>{{ track.submitted_at.strftime('%B %d, %Y %I:%M %p') }}</td>
+                <td class="{{ 'played2' if track.played_at else 'unplayed' }}">
+                    {% if track.played_at %}
+                        Played at {{ track.played_at.strftime('%B %d, %Y %I:%M %p') }}
+                    {% else %}
+                        Not played
+                    {% endif %}
+                </td>
+                <td>{{ track.upvotes }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Past Playlists</h2>
+    {% for playlist in playlists %}
+        <h3>Playlist {{ playlist.id }} ({{ playlist.created_at.strftime('%Y-%m-%d') }})</h3>
+        <p>Started: {{ playlist.created_at.strftime('%B %d, %Y %I:%M %p') }}</p>
+        <p>Ended: {{ playlist.ended_at.strftime('%B %d, %Y %I:%M %p') if playlist.ended_at else 'Ongoing' }}</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Artist</th>
+                    <th>Submitted at</th>
+                    <th>Requested by</th>
+                    <th>Status</th>
+                    <th>Upvotes</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for track in playlist.tracks %}
+                <tr>
+                    <td>{{ track.title }}</td>
+                    <td>{{ track.artist }}</td>
+                    <td>{{ track.submitted_at.strftime('%B %d, %Y %I:%M %p') }}</td>
+                    <td>{{ track.user.username if track.user else 'Anonymous' }}</td>
+                    <td class="{{ 'played2' if track.played_at else 'unplayed' }}">
+                        {% if track.played_at %}
+                            Played at {{ track.played_at.strftime('%B %d, %Y %I:%M %p') }}
+                        {% else %}
+                            Not played
+                        {% endif %}
+                    </td>
+                    <td>{{ track.upvotes }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endfor %}
+
+    <h2>Navigation</h2>
+    <ul>
+        <li><a href="{{ url_for('index') }}">Back to Main Page</a></li>
+    </ul>
+{% endblock %}
