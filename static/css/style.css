@@ -210,12 +210,12 @@ button:hover {
 
 /* Upvote Button Styling */
 .upvote-button {
-    background-color: #87ceeb; 
+    background-color: #10f100; 
     color: #1f1f1f;
 }
 
 .upvote-button:hover {
-    background-color: #6bb7d6;
+    background-color: #0cb000;
     color: #1f1f1f;
 }
 
