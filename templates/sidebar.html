@@ -2,9 +2,14 @@
     <h1>{{ title }}</h1>
     {% if current_user.is_authenticated %}
         <p>Welcome, {{ current_user.username }}!</p>
+    <form action="{{ url_for('history') }}" method="get" style="display:inline;">
+        <button type="submit">Request History</button>
+    </form>
+    <p>
         <form action="{{ url_for('logout') }}" method="post" style="display:inline;">
             <button type="submit">Logout</button>
         </form>
+    </p>
     {% else %}
     <form action="{{ url_for('login') }}" method="post" style="display:inline;">
         <button type="submit">Login</button>

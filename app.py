@@ -1,6 +1,6 @@
 import os
 import logging
-from flask import Flask, render_template, request, redirect, url_for, flash as original_flash
+from flask import Flask, render_template, request, g, redirect, url_for, flash as original_flash
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
@@ -10,6 +10,7 @@ from datetime import datetime
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, BooleanField, SubmitField
 from wtforms.validators import DataRequired, EqualTo, ValidationError
+import user_agents
 
 # set up logging
 logging.basicConfig(filename='app.log', level=logging.INFO,
@@ -123,8 +124,16 @@ flash = FlashLogger(original_flash)
 # Routes
 
 
+@app.before_request
+def detect_device():
+    user_agent = user_agents.parse(request.headers.get('User-Agent'))
+    g.is_mobile = user_agent.is_mobile
+
+
 @app.route('/')
 def index():
+    user_agent = user_agents.parse(request.headers.get('User-Agent'))
+    is_mobile = user_agent.is_mobile
     current_playlist = Playlist.query.filter_by(ended_at=None).first()
     if not current_playlist:
         current_playlist = Playlist()
@@ -132,7 +141,7 @@ def index():
         db.session.commit()
     tracks = Track.query.filter_by(
         playlist_id=current_playlist.id).order_by(Track.upvotes.desc()).all()
-    return render_template('index.html', title='Current Requests', tracks=tracks)
+    return render_template('index.html', title='Current Requests', tracks=tracks, is_mobile=is_mobile)
 
 
 @app.route('/request', methods=['POST'])

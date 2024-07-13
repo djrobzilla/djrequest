@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 /* Basic styling */
 body {
     font-family: Arial, sans-serif;
@@ -192,6 +198,7 @@ button {
     border: none;
     border-radius: 20px; /* Rounded corners */
     padding: 10px 20px;
+    margin-top: 5px;;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -216,31 +223,76 @@ button:hover {
 @media (max-width: 768px) {
     .header-container {
         width: 100%;
-        padding: 10px;
+        max-width: 1200px;
+        flex-direction: column;
     }
 
     .container {
         flex-direction: column; /* Stack sidebar and content vertically */
         width: 100%;
-        padding: 10px;
     }
 
     .sidebar {
         width: 100%; /* Make sidebar full width */
-        margin-bottom: 20px; /* Add space below sidebar */
+        text-align: center;
+    }
+
+    .sidebar h1 {
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
 
     .content {
         width: 100%; /* Make content full width */
+        padding: 12px;
     }
 
-    header nav ul {
+    nav {
+        float: none;
+        margin: 0;
+        background: #333;
+        color: #fff;
+        text-align: center;
+    }
+
+    nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    nav ul {
         display: flex;
         flex-direction: column; /* Stack nav items vertically */
         align-items: center; /* Center nav items */
+        padding: 0;
     }
 
-    header nav ul li {
+    nav ul li {
         padding: 10px 0; /* Add space between nav items */
+        list-style: none;
+    }
+
+    .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    }
+
+    table {
+        width: 100%;
+        min-width: 600px; /* Adjust based on your table's content */
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+    footer {
+        background: #333;
+        color: #fff;
+        border-top: #000 1px solid;
+        padding: 0px;
+        padding-left: 0px;
+        text-align: center;
     }
 }
