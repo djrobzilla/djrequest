@@ -1,5 +1,6 @@
 import os
 import logging
+import user_agents
 from flask import Flask, render_template, request, g, redirect, url_for, flash as original_flash
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
@@ -10,7 +11,6 @@ from datetime import datetime
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, BooleanField, SubmitField
 from wtforms.validators import DataRequired, EqualTo, ValidationError
-import user_agents
 
 # set up logging
 logging.basicConfig(filename='app.log', level=logging.INFO,
