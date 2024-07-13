@@ -11,8 +11,8 @@
 <body>
     <header>
         <div class="header-container">
-            <div id="branding">
-                <h1><a href="{{ url_for('index') }}">Request A Song - DJ Robzilla</a></h1>
+            <div class="banner">
+                <img src="{{ url_for('static', filename='images/djrq.png') }}" alt="DJRQ Banner Image">
             </div>
             <nav>
                 <ul>
@@ -29,6 +29,7 @@
                     {% endif %}
                 </ul>
             </nav>
+            
         </div>
     </header>
     <div class="container">

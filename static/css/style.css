@@ -9,15 +9,16 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding-top: 30px;
     min-height: 70px;
-    border-bottom: #bbb 1px solid;
+    border-bottom: #000 4px solid;
 }
 .header-container {
-    width: 80%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
-    padding: 20px;
+    display: flex;
+    flex-direction: row; /* Make the container a flex column */
+    height: 100%;
 }
 header a {
     color: #fff;
@@ -36,31 +37,34 @@ header li {
 header #branding {
     float: left;
 }
-header #branding h1 {
+header #branding img {
     margin: 0;
 }
 header nav {
     float: right;
-    margin-top: 10px;
+    margin-top: auto;
+    margin-left: auto;
+}
+.banner img {
+    height: 150px;
+    float: left;
 }
 .container {
-    display: flex; /* Use flexbox for layout */
-    width: 80%; /* Existing width */
+    display: flex; 
+    width: 100%; 
     margin: auto;
     overflow: hidden;
-    padding: 20px;
-    min-height: 100vh; /* Ensure the container takes full height */
 }
 .sidebar {
-    width: 250px; /* Fixed width for the sidebar */
+    width: 260px; 
     background-color: #212121;
     color: #fff;
     padding: 20px;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    border-right: #000 1px solid;
 
 }
 .content {
-    flex: 1; /* Take the remaining space */
+    flex: 1; 
     padding: 20px;
 }
 h1 {
@@ -84,6 +88,16 @@ h1 {
 }
 .played { color: green; }
 .unplayed { color: rgb(255, 166, 0); }
+
+/* footer styling */
+
+footer {
+    background: #333;
+    color: #fff;
+    border-top: #000 1px solid;
+    padding: 5px;
+    padding-left: 20px;
+}
 
 /* Table Styling */
 table {
@@ -196,4 +210,37 @@ button:hover {
 .upvote-button:hover {
     background-color: #6bb7d6;
     color: #1f1f1f;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .header-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .container {
+        flex-direction: column; /* Stack sidebar and content vertically */
+        width: 100%;
+        padding: 10px;
+    }
+
+    .sidebar {
+        width: 100%; /* Make sidebar full width */
+        margin-bottom: 20px; /* Add space below sidebar */
+    }
+
+    .content {
+        width: 100%; /* Make content full width */
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column; /* Stack nav items vertically */
+        align-items: center; /* Center nav items */
+    }
+
+    header nav ul li {
+        padding: 10px 0; /* Add space between nav items */
+    }
 }
