@@ -38,6 +38,7 @@
         <h3>Playlist {{ playlist.id }} ({{ playlist.created_at.strftime('%Y-%m-%d') }})</h3>
         <p>Started: {{ playlist.created_at.strftime('%B %d, %Y %I:%M %p') }}</p>
         <p>Ended: {{ playlist.ended_at.strftime('%B %d, %Y %I:%M %p') if playlist.ended_at else 'Ongoing' }}</p>
+        <div class="table-container">
         <table>
             <thead>
                 <tr>
@@ -68,5 +69,6 @@
             {% endfor %}
             </tbody>
         </table>
+        </div>
     {% endfor %}
 {% endblock %}
