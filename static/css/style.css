@@ -7,14 +7,14 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Regular.ttf') format('ttf');
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Urbanist';
-    src: url('../fonts/Urbanist-Regular.ttf') format('ttf');
+    src: url('../fonts/Urbanist-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
