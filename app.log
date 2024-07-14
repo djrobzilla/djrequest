@@ -1224,3 +1224,308 @@
 2024-07-13 20:56:45,345 - INFO - 127.0.0.1 - - [13/Jul/2024 20:56:45] "GET / HTTP/1.1" 200 -
 2024-07-13 20:56:45,390 - INFO - 127.0.0.1 - - [13/Jul/2024 20:56:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2024-07-13 20:56:45,393 - INFO - 127.0.0.1 - - [13/Jul/2024 20:56:45] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:03:44,863 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-14 10:03:44,863 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-14 10:03:44,876 - INFO -  * Restarting with stat
+2024-07-14 10:03:48,162 - WARNING -  * Debugger is active!
+2024-07-14 10:03:48,162 - INFO -  * Debugger PIN: 182-388-924
+2024-07-14 10:03:49,883 - INFO - 127.0.0.1 - - [14/Jul/2024 10:03:49] "GET / HTTP/1.1" 200 -
+2024-07-14 10:03:49,926 - INFO - 127.0.0.1 - - [14/Jul/2024 10:03:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:03:49,934 - INFO - 127.0.0.1 - - [14/Jul/2024 10:03:49] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:03:49,982 - INFO - 127.0.0.1 - - [14/Jul/2024 10:03:49] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:03:49,982 - INFO - 127.0.0.1 - - [14/Jul/2024 10:03:49] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:03:50,113 - INFO - 127.0.0.1 - - [14/Jul/2024 10:03:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-14 10:16:01,389 - INFO - 127.0.0.1 - - [14/Jul/2024 10:16:01] "GET / HTTP/1.1" 200 -
+2024-07-14 10:16:01,430 - INFO - 127.0.0.1 - - [14/Jul/2024 10:16:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:16:01,431 - INFO - 127.0.0.1 - - [14/Jul/2024 10:16:01] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:16:01,507 - INFO - 127.0.0.1 - - [14/Jul/2024 10:16:01] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:16:01,509 - INFO - 127.0.0.1 - - [14/Jul/2024 10:16:01] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:18:14,515 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/app.py', reloading
+2024-07-14 10:18:14,586 - INFO -  * Restarting with stat
+2024-07-14 10:18:17,752 - WARNING -  * Debugger is active!
+2024-07-14 10:18:17,753 - INFO -  * Debugger PIN: 182-388-924
+2024-07-14 10:18:18,809 - INFO - 127.0.0.1 - - [14/Jul/2024 10:18:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-07-14 10:18:18,844 - INFO - 127.0.0.1 - - [14/Jul/2024 10:18:18] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-14 10:18:18,844 - INFO - 127.0.0.1 - - [14/Jul/2024 10:18:18] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:18:18,891 - INFO - 127.0.0.1 - - [14/Jul/2024 10:18:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-14 10:18:18,931 - INFO - 127.0.0.1 - - [14/Jul/2024 10:18:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-14 10:18:37,839 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/app.py', reloading
+2024-07-14 10:18:37,918 - INFO -  * Restarting with stat
+2024-07-14 10:18:40,745 - WARNING -  * Debugger is active!
+2024-07-14 10:18:40,745 - INFO -  * Debugger PIN: 182-388-924
+2024-07-14 10:18:41,780 - INFO - 127.0.0.1 - - [14/Jul/2024 10:18:41] "GET / HTTP/1.1" 200 -
+2024-07-14 10:18:41,841 - INFO - 127.0.0.1 - - [14/Jul/2024 10:18:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:18:41,841 - INFO - 127.0.0.1 - - [14/Jul/2024 10:18:41] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:18:41,858 - INFO - 127.0.0.1 - - [14/Jul/2024 10:18:41] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:18:41,859 - INFO - 127.0.0.1 - - [14/Jul/2024 10:18:41] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:19:44,890 - INFO - 127.0.0.1 - - [14/Jul/2024 10:19:44] "[32mPOST /upvote/18 HTTP/1.1[0m" 302 -
+2024-07-14 10:19:44,909 - INFO - 127.0.0.1 - - [14/Jul/2024 10:19:44] "GET /login?next=/upvote/18 HTTP/1.1" 200 -
+2024-07-14 10:19:44,945 - INFO - 127.0.0.1 - - [14/Jul/2024 10:19:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:19:44,946 - INFO - 127.0.0.1 - - [14/Jul/2024 10:19:44] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:19:44,989 - INFO - 127.0.0.1 - - [14/Jul/2024 10:19:44] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:19:44,990 - INFO - 127.0.0.1 - - [14/Jul/2024 10:19:44] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:19:54,011 - INFO - 127.0.0.1 - - [14/Jul/2024 10:19:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-07-14 10:19:54,060 - INFO - 127.0.0.1 - - [14/Jul/2024 10:19:54] "GET / HTTP/1.1" 200 -
+2024-07-14 10:19:54,094 - INFO - 127.0.0.1 - - [14/Jul/2024 10:19:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:19:54,094 - INFO - 127.0.0.1 - - [14/Jul/2024 10:19:54] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:19:54,110 - INFO - 127.0.0.1 - - [14/Jul/2024 10:19:54] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:19:54,110 - INFO - 127.0.0.1 - - [14/Jul/2024 10:19:54] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:20:32,189 - INFO - Flash Message - Category: success, Message: Track requested successfully by 1!
+2024-07-14 10:20:32,190 - INFO - 127.0.0.1 - - [14/Jul/2024 10:20:32] "[32mPOST /request HTTP/1.1[0m" 302 -
+2024-07-14 10:20:32,231 - INFO - 127.0.0.1 - - [14/Jul/2024 10:20:32] "GET / HTTP/1.1" 200 -
+2024-07-14 10:20:32,273 - INFO - 127.0.0.1 - - [14/Jul/2024 10:20:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:20:32,273 - INFO - 127.0.0.1 - - [14/Jul/2024 10:20:32] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:20:32,290 - INFO - 127.0.0.1 - - [14/Jul/2024 10:20:32] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:20:32,292 - INFO - 127.0.0.1 - - [14/Jul/2024 10:20:32] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:21:48,082 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/app.py', reloading
+2024-07-14 10:21:48,221 - INFO -  * Restarting with stat
+2024-07-14 10:21:51,655 - WARNING -  * Debugger is active!
+2024-07-14 10:21:51,655 - INFO -  * Debugger PIN: 182-388-924
+2024-07-14 10:21:52,665 - INFO - 127.0.0.1 - - [14/Jul/2024 10:21:52] "GET / HTTP/1.1" 200 -
+2024-07-14 10:21:52,700 - INFO - 127.0.0.1 - - [14/Jul/2024 10:21:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:21:52,700 - INFO - 127.0.0.1 - - [14/Jul/2024 10:21:52] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:21:52,725 - INFO - 127.0.0.1 - - [14/Jul/2024 10:21:52] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:21:52,726 - INFO - 127.0.0.1 - - [14/Jul/2024 10:21:52] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:22:26,275 - INFO - 127.0.0.1 - - [14/Jul/2024 10:22:26] "[35m[1mPOST /request HTTP/1.1[0m" 500 -
+2024-07-14 10:22:26,315 - INFO - 127.0.0.1 - - [14/Jul/2024 10:22:26] "GET /request?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-07-14 10:22:26,315 - INFO - 127.0.0.1 - - [14/Jul/2024 10:22:26] "GET /request?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-07-14 10:22:26,329 - INFO - 127.0.0.1 - - [14/Jul/2024 10:22:26] "[36mGET /request?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-14 10:22:26,376 - INFO - 127.0.0.1 - - [14/Jul/2024 10:22:26] "[36mGET /request?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-14 10:23:13,374 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/app.py', reloading
+2024-07-14 10:23:13,538 - INFO -  * Restarting with stat
+2024-07-14 10:23:16,814 - WARNING -  * Debugger is active!
+2024-07-14 10:23:16,815 - INFO -  * Debugger PIN: 182-388-924
+2024-07-14 10:23:17,687 - INFO - 127.0.0.1 - - [14/Jul/2024 10:23:17] "[31m[1mGET /request HTTP/1.1[0m" 405 -
+2024-07-14 10:23:20,923 - INFO - 127.0.0.1 - - [14/Jul/2024 10:23:20] "GET / HTTP/1.1" 200 -
+2024-07-14 10:23:20,953 - INFO - 127.0.0.1 - - [14/Jul/2024 10:23:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:23:20,953 - INFO - 127.0.0.1 - - [14/Jul/2024 10:23:20] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:23:20,988 - INFO - 127.0.0.1 - - [14/Jul/2024 10:23:20] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:23:20,989 - INFO - 127.0.0.1 - - [14/Jul/2024 10:23:20] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:23:28,272 - INFO - 127.0.0.1 - - [14/Jul/2024 10:23:28] "[35m[1mPOST /request HTTP/1.1[0m" 500 -
+2024-07-14 10:23:28,307 - INFO - 127.0.0.1 - - [14/Jul/2024 10:23:28] "[36mGET /request?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:23:28,309 - INFO - 127.0.0.1 - - [14/Jul/2024 10:23:28] "[36mGET /request?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-14 10:23:28,320 - INFO - 127.0.0.1 - - [14/Jul/2024 10:23:28] "[36mGET /request?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-14 10:23:28,363 - INFO - 127.0.0.1 - - [14/Jul/2024 10:23:28] "[36mGET /request?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-14 10:24:03,876 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/app.py', reloading
+2024-07-14 10:24:03,947 - INFO -  * Restarting with stat
+2024-07-14 10:24:07,058 - WARNING -  * Debugger is active!
+2024-07-14 10:24:07,059 - INFO -  * Debugger PIN: 182-388-924
+2024-07-14 10:24:09,226 - INFO - 127.0.0.1 - - [14/Jul/2024 10:24:09] "[31m[1mGET /request HTTP/1.1[0m" 405 -
+2024-07-14 10:24:11,955 - INFO - 127.0.0.1 - - [14/Jul/2024 10:24:11] "GET / HTTP/1.1" 200 -
+2024-07-14 10:24:11,985 - INFO - 127.0.0.1 - - [14/Jul/2024 10:24:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:24:11,987 - INFO - 127.0.0.1 - - [14/Jul/2024 10:24:11] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:24:12,004 - INFO - 127.0.0.1 - - [14/Jul/2024 10:24:12] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:24:12,005 - INFO - 127.0.0.1 - - [14/Jul/2024 10:24:12] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:24:28,064 - INFO - Flash Message - Category: success, Message: Track requested successfully by 1!
+2024-07-14 10:24:28,065 - INFO - 127.0.0.1 - - [14/Jul/2024 10:24:28] "[32mPOST /request HTTP/1.1[0m" 302 -
+2024-07-14 10:24:28,106 - INFO - 127.0.0.1 - - [14/Jul/2024 10:24:28] "GET / HTTP/1.1" 200 -
+2024-07-14 10:24:28,138 - INFO - 127.0.0.1 - - [14/Jul/2024 10:24:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:24:28,138 - INFO - 127.0.0.1 - - [14/Jul/2024 10:24:28] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:28:26,667 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/app.py', reloading
+2024-07-14 10:28:26,735 - INFO -  * Restarting with stat
+2024-07-14 10:28:30,171 - WARNING -  * Debugger is active!
+2024-07-14 10:28:30,172 - INFO -  * Debugger PIN: 182-388-924
+2024-07-14 10:28:38,349 - INFO - 127.0.0.1 - - [14/Jul/2024 10:28:38] "GET / HTTP/1.1" 200 -
+2024-07-14 10:28:38,385 - INFO - 127.0.0.1 - - [14/Jul/2024 10:28:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:28:38,388 - INFO - 127.0.0.1 - - [14/Jul/2024 10:28:38] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:28:38,407 - INFO - 127.0.0.1 - - [14/Jul/2024 10:28:38] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:28:38,408 - INFO - 127.0.0.1 - - [14/Jul/2024 10:28:38] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:28:45,920 - INFO - Flash Message - Category: success, Message: Track requested successfully by djrobzilla!
+2024-07-14 10:28:45,921 - INFO - 127.0.0.1 - - [14/Jul/2024 10:28:45] "[32mPOST /request HTTP/1.1[0m" 302 -
+2024-07-14 10:28:45,973 - INFO - 127.0.0.1 - - [14/Jul/2024 10:28:45] "GET / HTTP/1.1" 200 -
+2024-07-14 10:28:46,011 - INFO - 127.0.0.1 - - [14/Jul/2024 10:28:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:28:46,011 - INFO - 127.0.0.1 - - [14/Jul/2024 10:28:46] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:28:46,036 - INFO - 127.0.0.1 - - [14/Jul/2024 10:28:46] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:28:46,037 - INFO - 127.0.0.1 - - [14/Jul/2024 10:28:46] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:33:01,805 - INFO - 127.0.0.1 - - [14/Jul/2024 10:33:01] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:33:01,850 - INFO - 127.0.0.1 - - [14/Jul/2024 10:33:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:33:01,853 - INFO - 127.0.0.1 - - [14/Jul/2024 10:33:01] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:33:01,885 - INFO - 127.0.0.1 - - [14/Jul/2024 10:33:01] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:33:01,891 - INFO - 127.0.0.1 - - [14/Jul/2024 10:33:01] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:34:16,909 - INFO - 127.0.0.1 - - [14/Jul/2024 10:34:16] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:34:16,945 - INFO - 127.0.0.1 - - [14/Jul/2024 10:34:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:34:16,946 - INFO - 127.0.0.1 - - [14/Jul/2024 10:34:16] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:34:16,968 - INFO - 127.0.0.1 - - [14/Jul/2024 10:34:16] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:34:16,969 - INFO - 127.0.0.1 - - [14/Jul/2024 10:34:16] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:35:36,896 - INFO - 127.0.0.1 - - [14/Jul/2024 10:35:36] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:35:36,936 - INFO - 127.0.0.1 - - [14/Jul/2024 10:35:36] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:35:36,937 - INFO - 127.0.0.1 - - [14/Jul/2024 10:35:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:35:36,961 - INFO - 127.0.0.1 - - [14/Jul/2024 10:35:36] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:35:36,962 - INFO - 127.0.0.1 - - [14/Jul/2024 10:35:36] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:36:16,078 - INFO - 127.0.0.1 - - [14/Jul/2024 10:36:16] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:36:16,116 - INFO - 127.0.0.1 - - [14/Jul/2024 10:36:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:36:16,116 - INFO - 127.0.0.1 - - [14/Jul/2024 10:36:16] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:36:16,137 - INFO - 127.0.0.1 - - [14/Jul/2024 10:36:16] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:36:16,138 - INFO - 127.0.0.1 - - [14/Jul/2024 10:36:16] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:42:39,387 - INFO - 127.0.0.1 - - [14/Jul/2024 10:42:39] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:42:39,417 - INFO - 127.0.0.1 - - [14/Jul/2024 10:42:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:42:39,419 - INFO - 127.0.0.1 - - [14/Jul/2024 10:42:39] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:42:39,443 - INFO - 127.0.0.1 - - [14/Jul/2024 10:42:39] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:42:39,444 - INFO - 127.0.0.1 - - [14/Jul/2024 10:42:39] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:42:43,064 - INFO - 127.0.0.1 - - [14/Jul/2024 10:42:43] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:42:43,098 - INFO - 127.0.0.1 - - [14/Jul/2024 10:42:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:42:43,099 - INFO - 127.0.0.1 - - [14/Jul/2024 10:42:43] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:42:51,390 - INFO - 127.0.0.1 - - [14/Jul/2024 10:42:51] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:42:51,422 - INFO - 127.0.0.1 - - [14/Jul/2024 10:42:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:42:51,424 - INFO - 127.0.0.1 - - [14/Jul/2024 10:42:51] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:43:18,438 - INFO - 127.0.0.1 - - [14/Jul/2024 10:43:18] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:43:18,462 - INFO - 127.0.0.1 - - [14/Jul/2024 10:43:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:43:18,465 - INFO - 127.0.0.1 - - [14/Jul/2024 10:43:18] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:44:02,241 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:02] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:44:02,274 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:44:02,275 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:02] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:44:02,289 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:02] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:44:02,290 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:02] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:44:15,835 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:15] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:44:15,863 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:44:15,864 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:15] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:44:15,889 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:15] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:44:15,890 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:15] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:44:59,700 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:59] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:44:59,730 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:44:59,732 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:59] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:44:59,754 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:59] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:44:59,755 - INFO - 127.0.0.1 - - [14/Jul/2024 10:44:59] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:45:28,511 - INFO - 127.0.0.1 - - [14/Jul/2024 10:45:28] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:45:28,541 - INFO - 127.0.0.1 - - [14/Jul/2024 10:45:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:45:28,544 - INFO - 127.0.0.1 - - [14/Jul/2024 10:45:28] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:45:28,565 - INFO - 127.0.0.1 - - [14/Jul/2024 10:45:28] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:45:28,566 - INFO - 127.0.0.1 - - [14/Jul/2024 10:45:28] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:46:14,303 - INFO - 127.0.0.1 - - [14/Jul/2024 10:46:14] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:46:14,332 - INFO - 127.0.0.1 - - [14/Jul/2024 10:46:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:46:14,333 - INFO - 127.0.0.1 - - [14/Jul/2024 10:46:14] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:46:14,352 - INFO - 127.0.0.1 - - [14/Jul/2024 10:46:14] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:46:14,352 - INFO - 127.0.0.1 - - [14/Jul/2024 10:46:14] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:46:28,396 - INFO - 127.0.0.1 - - [14/Jul/2024 10:46:28] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:46:28,424 - INFO - 127.0.0.1 - - [14/Jul/2024 10:46:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:46:28,426 - INFO - 127.0.0.1 - - [14/Jul/2024 10:46:28] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:46:28,443 - INFO - 127.0.0.1 - - [14/Jul/2024 10:46:28] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:46:28,444 - INFO - 127.0.0.1 - - [14/Jul/2024 10:46:28] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:46:37,807 - INFO - 127.0.0.1 - - [14/Jul/2024 10:46:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 10:54:43,526 - INFO - 127.0.0.1 - - [14/Jul/2024 10:54:43] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:54:43,558 - INFO - 127.0.0.1 - - [14/Jul/2024 10:54:43] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:54:43,560 - INFO - 127.0.0.1 - - [14/Jul/2024 10:54:43] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:54:43,589 - INFO - 127.0.0.1 - - [14/Jul/2024 10:54:43] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:54:43,594 - INFO - 127.0.0.1 - - [14/Jul/2024 10:54:43] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:55:34,342 - INFO - 127.0.0.1 - - [14/Jul/2024 10:55:34] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:55:34,375 - INFO - 127.0.0.1 - - [14/Jul/2024 10:55:34] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:55:34,375 - INFO - 127.0.0.1 - - [14/Jul/2024 10:55:34] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:55:34,412 - INFO - 127.0.0.1 - - [14/Jul/2024 10:55:34] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:55:34,412 - INFO - 127.0.0.1 - - [14/Jul/2024 10:55:34] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:55:48,035 - INFO - 127.0.0.1 - - [14/Jul/2024 10:55:48] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:55:48,062 - INFO - 127.0.0.1 - - [14/Jul/2024 10:55:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:55:48,064 - INFO - 127.0.0.1 - - [14/Jul/2024 10:55:48] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:55:48,089 - INFO - 127.0.0.1 - - [14/Jul/2024 10:55:48] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:55:48,090 - INFO - 127.0.0.1 - - [14/Jul/2024 10:55:48] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:56:21,139 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:21] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:56:21,188 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:21] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:56:21,188 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:56:21,212 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:21] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:56:21,214 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:21] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:56:37,642 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:37] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:56:37,673 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:37] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:56:37,676 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:37] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:56:37,702 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:37] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:56:37,702 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:37] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:56:47,327 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:47] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:56:47,355 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:56:47,356 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:47] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:56:47,381 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:47] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:56:47,382 - INFO - 127.0.0.1 - - [14/Jul/2024 10:56:47] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:59:39,590 - INFO - 127.0.0.1 - - [14/Jul/2024 10:59:39] "GET /history HTTP/1.1" 200 -
+2024-07-14 10:59:39,632 - INFO - 127.0.0.1 - - [14/Jul/2024 10:59:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 10:59:39,632 - INFO - 127.0.0.1 - - [14/Jul/2024 10:59:39] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 10:59:39,665 - INFO - 127.0.0.1 - - [14/Jul/2024 10:59:39] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 10:59:39,665 - INFO - 127.0.0.1 - - [14/Jul/2024 10:59:39] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:02:17,353 - INFO - 127.0.0.1 - - [14/Jul/2024 11:02:17] "GET /history HTTP/1.1" 200 -
+2024-07-14 11:02:17,397 - INFO - 127.0.0.1 - - [14/Jul/2024 11:02:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-14 11:02:17,398 - INFO - 127.0.0.1 - - [14/Jul/2024 11:02:17] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:02:17,428 - INFO - 127.0.0.1 - - [14/Jul/2024 11:02:17] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:02:17,429 - INFO - 127.0.0.1 - - [14/Jul/2024 11:02:17] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:04:52,361 - INFO - 127.0.0.1 - - [14/Jul/2024 11:04:52] "GET /history HTTP/1.1" 200 -
+2024-07-14 11:04:52,399 - INFO - 127.0.0.1 - - [14/Jul/2024 11:04:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:04:52,400 - INFO - 127.0.0.1 - - [14/Jul/2024 11:04:52] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:04:52,431 - INFO - 127.0.0.1 - - [14/Jul/2024 11:04:52] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:04:52,431 - INFO - 127.0.0.1 - - [14/Jul/2024 11:04:52] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:04:56,844 - INFO - 127.0.0.1 - - [14/Jul/2024 11:04:56] "GET /history HTTP/1.1" 200 -
+2024-07-14 11:04:56,870 - INFO - 127.0.0.1 - - [14/Jul/2024 11:04:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:04:56,872 - INFO - 127.0.0.1 - - [14/Jul/2024 11:04:56] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:04:56,901 - INFO - 127.0.0.1 - - [14/Jul/2024 11:04:56] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:04:56,902 - INFO - 127.0.0.1 - - [14/Jul/2024 11:04:56] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:05:31,911 - INFO - 127.0.0.1 - - [14/Jul/2024 11:05:31] "GET /history HTTP/1.1" 200 -
+2024-07-14 11:05:31,946 - INFO - 127.0.0.1 - - [14/Jul/2024 11:05:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:05:31,948 - INFO - 127.0.0.1 - - [14/Jul/2024 11:05:31] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:05:31,970 - INFO - 127.0.0.1 - - [14/Jul/2024 11:05:31] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:05:31,971 - INFO - 127.0.0.1 - - [14/Jul/2024 11:05:31] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:06:50,532 - INFO - 127.0.0.1 - - [14/Jul/2024 11:06:50] "GET /history HTTP/1.1" 200 -
+2024-07-14 11:06:50,565 - INFO - 127.0.0.1 - - [14/Jul/2024 11:06:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:06:50,568 - INFO - 127.0.0.1 - - [14/Jul/2024 11:06:50] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:06:50,594 - INFO - 127.0.0.1 - - [14/Jul/2024 11:06:50] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:06:50,594 - INFO - 127.0.0.1 - - [14/Jul/2024 11:06:50] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:14:59,357 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/app.py', reloading
+2024-07-14 11:14:59,419 - INFO -  * Restarting with stat
+2024-07-14 11:15:02,777 - WARNING -  * Debugger is active!
+2024-07-14 11:15:02,778 - INFO -  * Debugger PIN: 182-388-924
+2024-07-14 11:17:54,034 - INFO - 127.0.0.1 - - [14/Jul/2024 11:17:54] "GET /history HTTP/1.1" 200 -
+2024-07-14 11:17:54,068 - INFO - 127.0.0.1 - - [14/Jul/2024 11:17:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:17:54,068 - INFO - 127.0.0.1 - - [14/Jul/2024 11:17:54] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:17:54,094 - INFO - 127.0.0.1 - - [14/Jul/2024 11:17:54] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:17:54,094 - INFO - 127.0.0.1 - - [14/Jul/2024 11:17:54] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:18:00,525 - INFO - Flash Message - Category: success, Message: You have been logged out.
+2024-07-14 11:18:00,527 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-07-14 11:18:00,590 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:00] "GET / HTTP/1.1" 200 -
+2024-07-14 11:18:00,633 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:18:00,638 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:00] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:18:03,544 - INFO - The CSRF token is missing.
+2024-07-14 11:18:03,556 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:03] "POST /login HTTP/1.1" 200 -
+2024-07-14 11:18:03,588 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:18:03,590 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:03] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:18:07,281 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:07] "[35m[1mGET /forgot_password HTTP/1.1[0m" 500 -
+2024-07-14 11:18:07,308 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:07] "GET /forgot_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-07-14 11:18:07,309 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:07] "GET /forgot_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-07-14 11:18:07,341 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:07] "GET /forgot_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-07-14 11:18:07,490 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:07] "[36mGET /forgot_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-14 11:18:52,362 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-07-14 11:18:52,410 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:52] "GET / HTTP/1.1" 200 -
+2024-07-14 11:18:52,439 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:18:52,443 - INFO - 127.0.0.1 - - [14/Jul/2024 11:18:52] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:19:01,831 - INFO - Flash Message - Category: success, Message: Track requested successfully by djrobzilla!
+2024-07-14 11:19:01,831 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:01] "[32mPOST /request HTTP/1.1[0m" 302 -
+2024-07-14 11:19:01,887 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:01] "GET / HTTP/1.1" 200 -
+2024-07-14 11:19:01,918 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:19:01,919 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:01] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:19:05,541 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:05] "GET /history HTTP/1.1" 200 -
+2024-07-14 11:19:05,570 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:19:05,578 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:05] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:19:28,185 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:28] "GET /admin HTTP/1.1" 200 -
+2024-07-14 11:19:28,214 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:19:28,215 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:28] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:19:32,242 - INFO - Flash Message - Category: success, Message: Track "request 3" marked as played.
+2024-07-14 11:19:32,243 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:32] "[32mPOST /mark_played/18 HTTP/1.1[0m" 302 -
+2024-07-14 11:19:32,296 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:32] "GET /admin HTTP/1.1" 200 -
+2024-07-14 11:19:32,330 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:19:32,332 - INFO - 127.0.0.1 - - [14/Jul/2024 11:19:32] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:23:16,107 - INFO - 127.0.0.1 - - [14/Jul/2024 11:23:16] "GET /admin HTTP/1.1" 200 -
+2024-07-14 11:23:16,143 - INFO - 127.0.0.1 - - [14/Jul/2024 11:23:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:23:16,144 - INFO - 127.0.0.1 - - [14/Jul/2024 11:23:16] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:23:16,164 - INFO - 127.0.0.1 - - [14/Jul/2024 11:23:16] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:23:16,165 - INFO - 127.0.0.1 - - [14/Jul/2024 11:23:16] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:24:45,616 - INFO - 127.0.0.1 - - [14/Jul/2024 11:24:45] "GET /admin HTTP/1.1" 200 -
+2024-07-14 11:24:45,669 - INFO - 127.0.0.1 - - [14/Jul/2024 11:24:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:24:45,673 - INFO - 127.0.0.1 - - [14/Jul/2024 11:24:45] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:24:45,690 - INFO - 127.0.0.1 - - [14/Jul/2024 11:24:45] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:24:45,691 - INFO - 127.0.0.1 - - [14/Jul/2024 11:24:45] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:25:12,789 - INFO - 127.0.0.1 - - [14/Jul/2024 11:25:12] "GET / HTTP/1.1" 200 -
+2024-07-14 11:25:12,828 - INFO - 127.0.0.1 - - [14/Jul/2024 11:25:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:25:12,831 - INFO - 127.0.0.1 - - [14/Jul/2024 11:25:12] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:25:12,872 - INFO - 127.0.0.1 - - [14/Jul/2024 11:25:12] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:25:12,881 - INFO - 127.0.0.1 - - [14/Jul/2024 11:25:12] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:25:24,278 - INFO - 127.0.0.1 - - [14/Jul/2024 11:25:24] "GET / HTTP/1.1" 200 -
+2024-07-14 11:25:24,303 - INFO - 127.0.0.1 - - [14/Jul/2024 11:25:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:25:24,306 - INFO - 127.0.0.1 - - [14/Jul/2024 11:25:24] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-14 11:25:24,328 - INFO - 127.0.0.1 - - [14/Jul/2024 11:25:24] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:25:24,329 - INFO - 127.0.0.1 - - [14/Jul/2024 11:25:24] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-14 11:25:25,334 - INFO - 127.0.0.1 - - [14/Jul/2024 11:25:25] "GET /history HTTP/1.1" 200 -
+2024-07-14 11:25:25,370 - INFO - 127.0.0.1 - - [14/Jul/2024 11:25:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-14 11:25:25,372 - INFO - 127.0.0.1 - - [14/Jul/2024 11:25:25] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -

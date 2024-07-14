@@ -235,6 +235,27 @@ button:hover {
     color: white;
 }
 
+.past-playlist {
+    margin-top: 0;
+}
+
+.playlist-times {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px;
+}
+
+.playlist-starttime {
+    text-align: left;
+    margin: 0;
+}
+
+.playlist-endtime {
+    text-align: right;
+    margin: 0;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     body {

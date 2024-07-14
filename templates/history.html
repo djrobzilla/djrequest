@@ -4,13 +4,14 @@
 
 {% block content %}
     <h2>Your Submitted Tracks</h2>
+    <div class="table-container">
     <table>
         <thead>
             <tr>
                 <th>Title</th>
                 <th>Artist</th>
                 <th>Submitted At</th>
-                <th>Status</th>
+                <th>Played At</th>
                 <th>Upvotes</th>
             </tr>
         </thead>
@@ -19,10 +20,10 @@
             <tr>
                 <td>{{ track.title }}</td>
                 <td>{{ track.artist }}</td>
-                <td>{{ track.submitted_at.strftime('%B %d, %Y %I:%M %p') }}</td>
+                <td>{{ track.submitted_at.strftime('%m/%d/%Y %I:%M%p') }}</td>
                 <td class="{{ 'played2' if track.played_at else 'unplayed' }}">
                     {% if track.played_at %}
-                        Played at {{ track.played_at.strftime('%B %d, %Y %I:%M %p') }}
+                        {{ track.played_at.strftime('%m/%d/%Y %I:%M%p') }}
                     {% else %}
                         Not played
                     {% endif %}
@@ -32,21 +33,27 @@
         {% endfor %}
         </tbody>
     </table>
+    </div>
 
     <h2>Past Playlists</h2>
     {% for playlist in playlists %}
         <h3>Playlist {{ playlist.id }} ({{ playlist.created_at.strftime('%Y-%m-%d') }})</h3>
-        <p>Started: {{ playlist.created_at.strftime('%B %d, %Y %I:%M %p') }}</p>
-        <p>Ended: {{ playlist.ended_at.strftime('%B %d, %Y %I:%M %p') if playlist.ended_at else 'Ongoing' }}</p>
         <div class="table-container">
-        <table>
+            <div class="playlist-times">
+                <p class="playlist-starttime">Started: {{ playlist.created_at.strftime('%m/%d/%Y %I:%M%p') }}</p>
+                {% if g.is_mobile %}
+                {% else %}
+                <p class="playlist-endtime">Ended: {{ playlist.ended_at.strftime('%m/%d/%Y %I:%M%p') if playlist.ended_at else 'Ongoing' }}</p>
+                {% endif %}
+            </div>
+        <table class="past-playlist">
             <thead>
                 <tr>
                     <th>Title</th>
                     <th>Artist</th>
                     <th>Submitted at</th>
                     <th>Requested by</th>
-                    <th>Status</th>
+                    <th>Played At</th>
                     <th>Upvotes</th>
                 </tr>
             </thead>
@@ -55,11 +62,11 @@
                 <tr>
                     <td>{{ track.title }}</td>
                     <td>{{ track.artist }}</td>
-                    <td>{{ track.submitted_at.strftime('%B %d, %Y %I:%M %p') }}</td>
+                    <td>{{ track.submitted_at.strftime('%m/%d/%Y %I:%M%p') }}</td>
                     <td>{{ track.user.username if track.user else 'Anonymous' }}</td>
                     <td class="{{ 'played2' if track.played_at else 'unplayed' }}">
                         {% if track.played_at %}
-                            Played at {{ track.played_at.strftime('%B %d, %Y %I:%M %p') }}
+                            {{ track.played_at.strftime('%m/%d/%Y %I:%M%p') }}
                         {% else %}
                             Not played
                         {% endif %}
@@ -69,6 +76,12 @@
             {% endfor %}
             </tbody>
         </table>
+        </div>
+        <div class="playlist-times">
+            {% if g.is_mobile %}
+            <p class="playlist-endtime">Ended: {{ playlist.ended_at.strftime('%m/%d/%Y %I:%M%p') if playlist.ended_at else 'Ongoing' }}</p>
+            {% else %}
+            {% endif %}
         </div>
     {% endfor %}
 {% endblock %}

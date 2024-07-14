@@ -33,7 +33,7 @@
                 <td class="{{ 'played' if track.played_at else '' }}">{{ track.artist }}</td>
                 <td class="{{ 'played2' if track.played_at else 'unplayed' }}">
                     {% if track.played_at %}
-                        Played at {{ track.played_at.strftime('%B %d, %Y %I:%M %p') }}
+                        {{ track.played_at.strftime('%m/%d/%Y %I:%M%p') }}
                     {% else %}
                         Not played
                     {% endif %}

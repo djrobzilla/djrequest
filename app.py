@@ -154,9 +154,12 @@ def request_track():
                   playlist_id=current_playlist.id, user_id=user_id)
     if current_user.is_authenticated:
         track.submitted_by = current_user.id
+        username = current_user.username
+    else:
+        username = 'Anonymous'
     db.session.add(track)
     db.session.commit()
-    flash(f'Track requested successfully by {user_id}!', 'success')
+    flash(f'Track requested successfully by {username}!', 'success')
     return redirect(url_for('index'))
 
 
@@ -273,6 +276,15 @@ def register():
         flash('Congratulations, you are now a registered user!', 'success')
         return redirect(url_for('login'))
     return render_template('register.html', title='Register', form=form)
+
+
+@app.route('/forgot_password', methods=['GET', 'POST'])
+def forgot_password():
+    if request.method == 'POST':
+        email = request.form['email']
+        # pw reset logic goes here
+        flash('If an account with that email exists, a password reset link has been sent.', 'info')
+        return render_template('forgot_password.html')
 
 
 if __name__ == '__main__':
