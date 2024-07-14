@@ -1136,3 +1136,30 @@
 2024-07-13 19:26:08,082 - INFO - 127.0.0.1 - - [13/Jul/2024 19:26:08] "GET / HTTP/1.1" 200 -
 2024-07-13 19:26:08,115 - INFO - 127.0.0.1 - - [13/Jul/2024 19:26:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2024-07-13 19:26:08,116 - INFO - 127.0.0.1 - - [13/Jul/2024 19:26:08] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 19:51:14,128 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-13 19:51:14,129 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-13 19:51:14,134 - INFO -  * Restarting with stat
+2024-07-13 19:51:17,477 - WARNING -  * Debugger is active!
+2024-07-13 19:51:17,477 - INFO -  * Debugger PIN: 182-388-924
+2024-07-13 19:51:28,645 - INFO - 127.0.0.1 - - [13/Jul/2024 19:51:28] "GET / HTTP/1.1" 200 -
+2024-07-13 19:51:28,681 - INFO - 127.0.0.1 - - [13/Jul/2024 19:51:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 19:51:28,683 - INFO - 127.0.0.1 - - [13/Jul/2024 19:51:28] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 19:53:49,959 - INFO - 127.0.0.1 - - [13/Jul/2024 19:53:49] "GET / HTTP/1.1" 200 -
+2024-07-13 19:53:49,997 - INFO - 127.0.0.1 - - [13/Jul/2024 19:53:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 19:53:49,998 - INFO - 127.0.0.1 - - [13/Jul/2024 19:53:49] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 19:54:32,982 - INFO - 127.0.0.1 - - [13/Jul/2024 19:54:32] "GET / HTTP/1.1" 200 -
+2024-07-13 19:54:33,021 - INFO - 127.0.0.1 - - [13/Jul/2024 19:54:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 19:54:33,022 - INFO - 127.0.0.1 - - [13/Jul/2024 19:54:33] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 19:59:13,193 - INFO - 127.0.0.1 - - [13/Jul/2024 19:59:13] "GET / HTTP/1.1" 200 -
+2024-07-13 19:59:13,227 - INFO - 127.0.0.1 - - [13/Jul/2024 19:59:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 19:59:13,236 - INFO - 127.0.0.1 - - [13/Jul/2024 19:59:13] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 20:01:55,499 - INFO - 127.0.0.1 - - [13/Jul/2024 20:01:55] "GET / HTTP/1.1" 200 -
+2024-07-13 20:01:55,553 - INFO - 127.0.0.1 - - [13/Jul/2024 20:01:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 20:01:55,554 - INFO - 127.0.0.1 - - [13/Jul/2024 20:01:55] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 20:02:21,625 - INFO - 127.0.0.1 - - [13/Jul/2024 20:02:21] "GET / HTTP/1.1" 200 -
+2024-07-13 20:02:21,652 - INFO - 127.0.0.1 - - [13/Jul/2024 20:02:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-13 20:02:21,652 - INFO - 127.0.0.1 - - [13/Jul/2024 20:02:21] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-13 20:05:10,737 - INFO - 127.0.0.1 - - [13/Jul/2024 20:05:10] "GET / HTTP/1.1" 200 -
+2024-07-13 20:05:10,773 - INFO - 127.0.0.1 - - [13/Jul/2024 20:05:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-13 20:05:10,775 - INFO - 127.0.0.1 - - [13/Jul/2024 20:05:10] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -

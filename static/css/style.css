@@ -6,7 +6,7 @@
 
 /* Basic styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Urbanist, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -202,6 +202,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: Montserrat, sans-serif;
 }
 
 button:hover {
