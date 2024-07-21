@@ -21,6 +21,7 @@ logging.basicConfig(filename='app.log', level=logging.INFO,
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv(
     'DJ_REQUEST_SECRET_KEY', 'default_secret_key')
+app.config['DEBUG'] = True
 
 # set db env variables for
 DATABASE_URL = os.getenv('DATABASE_URL')
