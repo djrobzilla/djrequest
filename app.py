@@ -1,6 +1,7 @@
 import os
 import logging
 import user_agents
+import psycopg2
 from flask import Flask, render_template, request, g, redirect, url_for, flash as original_flash
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
@@ -21,6 +22,12 @@ app.config['SECRET_KEY'] = os.getenv(
     'DJ_REQUEST_SECRET_KEY', 'default_secret_key')
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+# for the postgres db
+if DATABASE_URL:
+    conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+
+# for the sqlite db. soon will be deprecated
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
