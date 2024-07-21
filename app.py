@@ -23,7 +23,7 @@ app.config['SECRET_KEY'] = os.getenv(
     'DJ_REQUEST_SECRET_KEY', 'default_secret_key')
 
 # set db env variables for security
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get(
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(
     'DATABASE_URL').replace("postgres://", "postgresql://")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
