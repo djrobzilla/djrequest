@@ -225,7 +225,7 @@ def end_playlist():
     db.session.add(new_playlist)
     db.session.commit()
     flash('Playlist ended and new one created.', 'success')
-    return redirect(url_for('admin'))
+    return redirect(request.referrer or url_for('admin'))
 
 
 @app.route('/history')

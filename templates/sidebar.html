@@ -11,11 +11,6 @@
         {% else %}
         {% endif %}
         <p>
-        <form action="{{ url_for('history') }}" method="get" style="display:inline;">
-            <button type="submit">Request History</button>
-        </form>
-        </p>
-        <p>
             <form action="{{ url_for('logout') }}" method="post" style="display:inline;">
                 <button type="submit">Logout</button>
             </form>

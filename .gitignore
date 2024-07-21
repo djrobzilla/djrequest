@@ -117,3 +117,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# db files, to prevent overwriting the live site on git push
+/instance
