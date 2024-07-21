@@ -2832,3 +2832,69 @@
 2024-07-21 12:41:22,785 - INFO - 127.0.0.1 - - [21/Jul/2024 12:41:22] "GET / HTTP/1.1" 200 -
 2024-07-21 12:41:22,826 - INFO - 127.0.0.1 - - [21/Jul/2024 12:41:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2024-07-21 12:41:22,830 - INFO - 127.0.0.1 - - [21/Jul/2024 12:41:22] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-21 12:59:22,744 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 12:59:22,745 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 12:59:22,751 - INFO -  * Restarting with stat
+2024-07-21 12:59:25,878 - WARNING -  * Debugger is active!
+2024-07-21 12:59:25,878 - INFO -  * Debugger PIN: 638-040-965
+2024-07-21 12:59:27,796 - INFO - 127.0.0.1 - - [21/Jul/2024 12:59:27] "GET / HTTP/1.1" 200 -
+2024-07-21 12:59:27,812 - INFO - 127.0.0.1 - - [21/Jul/2024 12:59:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-21 12:59:27,812 - INFO - 127.0.0.1 - - [21/Jul/2024 12:59:27] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-21 12:59:27,870 - INFO - 127.0.0.1 - - [21/Jul/2024 12:59:27] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-21 12:59:27,872 - INFO - 127.0.0.1 - - [21/Jul/2024 12:59:27] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-21 13:26:54,014 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 13:26:54,015 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 13:26:54,022 - INFO -  * Restarting with stat
+2024-07-21 13:26:57,199 - WARNING -  * Debugger is active!
+2024-07-21 13:26:57,200 - INFO -  * Debugger PIN: 638-040-965
+2024-07-21 13:26:58,279 - INFO - 127.0.0.1 - - [21/Jul/2024 13:26:58] "GET / HTTP/1.1" 200 -
+2024-07-21 13:26:58,332 - INFO - 127.0.0.1 - - [21/Jul/2024 13:26:58] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-21 13:26:58,333 - INFO - 127.0.0.1 - - [21/Jul/2024 13:26:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-21 13:26:58,386 - INFO - 127.0.0.1 - - [21/Jul/2024 13:26:58] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-21 13:26:58,386 - INFO - 127.0.0.1 - - [21/Jul/2024 13:26:58] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-21 13:28:05,653 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 13:28:05,654 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 13:28:05,662 - INFO -  * Restarting with stat
+2024-07-21 13:28:09,153 - WARNING -  * Debugger is active!
+2024-07-21 13:28:09,153 - INFO -  * Debugger PIN: 638-040-965
+2024-07-21 13:28:10,096 - INFO - 127.0.0.1 - - [21/Jul/2024 13:28:10] "GET / HTTP/1.1" 200 -
+2024-07-21 13:28:10,149 - INFO - 127.0.0.1 - - [21/Jul/2024 13:28:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-21 13:28:10,151 - INFO - 127.0.0.1 - - [21/Jul/2024 13:28:10] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-21 13:28:10,170 - INFO - 127.0.0.1 - - [21/Jul/2024 13:28:10] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-21 13:28:10,172 - INFO - 127.0.0.1 - - [21/Jul/2024 13:28:10] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-21 13:30:53,263 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/app.py', reloading
+2024-07-21 13:30:53,329 - INFO -  * Restarting with stat
+2024-07-21 13:30:56,429 - WARNING -  * Debugger is active!
+2024-07-21 13:30:56,430 - INFO -  * Debugger PIN: 638-040-965
+2024-07-21 13:30:57,362 - INFO - 127.0.0.1 - - [21/Jul/2024 13:30:57] "GET / HTTP/1.1" 200 -
+2024-07-21 13:30:57,414 - INFO - 127.0.0.1 - - [21/Jul/2024 13:30:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-21 13:30:57,418 - INFO - 127.0.0.1 - - [21/Jul/2024 13:30:57] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-21 13:30:57,437 - INFO - 127.0.0.1 - - [21/Jul/2024 13:30:57] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-21 13:30:57,438 - INFO - 127.0.0.1 - - [21/Jul/2024 13:30:57] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-21 13:31:07,451 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 13:31:07,451 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 13:31:07,458 - INFO -  * Restarting with stat
+2024-07-21 13:31:10,567 - WARNING -  * Debugger is active!
+2024-07-21 13:31:10,567 - INFO -  * Debugger PIN: 638-040-965
+2024-07-21 13:31:11,521 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:11] "GET / HTTP/1.1" 200 -
+2024-07-21 13:31:11,561 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-21 13:31:11,575 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:11] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-21 13:31:13,481 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:13] "GET /history HTTP/1.1" 200 -
+2024-07-21 13:31:13,696 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-21 13:31:13,711 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:13] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-21 13:31:14,498 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:14] "GET / HTTP/1.1" 200 -
+2024-07-21 13:31:14,536 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-21 13:31:14,538 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:14] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-21 13:31:15,352 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:15] "GET /admin HTTP/1.1" 200 -
+2024-07-21 13:31:15,388 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-21 13:31:15,393 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:15] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-21 13:31:16,665 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:16] "GET /history HTTP/1.1" 200 -
+2024-07-21 13:31:16,700 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-21 13:31:16,702 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:16] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-21 13:31:17,602 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:17] "GET / HTTP/1.1" 200 -
+2024-07-21 13:31:17,640 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-21 13:31:17,651 - INFO - 127.0.0.1 - - [21/Jul/2024 13:31:17] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
