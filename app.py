@@ -33,8 +33,7 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
 # connect the postgres db
-if DATABASE_URL:
-    conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 
 # setting up prerequisites for the login manager
 login_manager = LoginManager(app)
