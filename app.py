@@ -24,8 +24,11 @@ app.config['SECRET_KEY'] = os.getenv(
 
 # set db env variables for
 DATABASE_URL = os.getenv('DATABASE_URL')
-app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL.replace(
-    "postgres://", "postgresql://", 1)
+if DATABASE_URL:
+    app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL.replace(
+        "postgres://", "postgresql://", 1)
+else:
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://djrobzilla:{os.getenv("POSTGRES_DJROBZILLA_PASS")}@localhost/djrequest'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # initialize flask db hooks
@@ -33,7 +36,8 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
 # connect the postgres db
-conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+if DATABASE_URL:
+    conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 
 # setting up prerequisites for the login manager
 login_manager = LoginManager(app)
@@ -83,7 +87,7 @@ class Track(db.Model):
     played_at = db.Column(db.DateTime)
     upvotes = db.Column(db.Integer, default=0)
     playlist_id = db.Column(db.Integer, db.ForeignKey('playlist.id'))
-    user_id = db.Column(db.String(80), db.ForeignKey(
+    user_id = db.Column(db.Integer, db.ForeignKey(
         'user.id'), nullable=True)
 
 
