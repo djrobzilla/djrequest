@@ -8,14 +8,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     {% block additional_styles %}{% endblock %}
     {% block head %}{% endblock %}
 </head>
 <body>
+    <!-- This wrapper helps to ensure 
+        the footer doesn't cut 
+        the page short if there 
+        are few or no requests 
+        in the list -->
+    <div class="wrapper">
     <header>
         <div class="header-container">
             <div class="banner">
+                <a href="{{ url_for('index')}}">
                 <img src="{{ url_for('static', filename='images/djrq.png') }}" alt="DJRQ Banner Image">
+                </a>
             </div>
             {% if g.is_mobile %}
             {% else %}
@@ -84,6 +93,7 @@
             <p>&copy; 2023 DJ Request App. All rights reserved.</p>
         </div>
     </footer>
+    </div>
 
     {% block scripts %}{% endblock %}
 </body>

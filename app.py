@@ -163,6 +163,19 @@ def request_track():
     return redirect(url_for('index'))
 
 
+@app.route('/delete_track/<int:track_id>', methods=['POST'])
+@login_required
+def delete_track(track_id):
+    if not current_user.is_admin:
+        flash('You do not have permission to perform this action.', 'error')
+        return (url_for('index'))
+    track = Track.query.get_or_404(track_id)
+    db.session.delete(track)
+    db.session.commit()
+    flash(f'Track {track.title} has been deleted.', 'success')
+    return redirect(request.referrer or url_for('admin'))
+
+
 @app.route('/upvote/<int:track_id>', methods=['POST'])
 @login_required
 def upvote(track_id):
@@ -172,7 +185,7 @@ def upvote(track_id):
     return redirect(url_for('index'))
 
 
-@app.route('/admin')
+@app.route('/admin', methods=['GET'])
 @login_required
 def admin():
     if not current_user.is_admin:
