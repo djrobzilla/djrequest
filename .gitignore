@@ -119,7 +119,7 @@ dmypy.json
 .pyre/
 
 # db files, to prevent overwriting the live site on git push
-./instance
+instance/
 
 # don't need the log files to be pushed
-./app.log
+app.log
