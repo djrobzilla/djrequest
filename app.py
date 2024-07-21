@@ -17,18 +17,21 @@ from wtforms.validators import DataRequired, EqualTo, ValidationError
 logging.basicConfig(filename='app.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
+# initialise the flask app
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv(
     'DJ_REQUEST_SECRET_KEY', 'default_secret_key')
+
+# set db env variables for security
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-# for the postgres db
-conn = psycopg2.connect(DATABASE_URL, sslmode='require')
-
-# for the sqlite db. soon will be deprecated
+# initialize flask db hooks
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
+
+# connect the postgres db
+conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 
 # setting up prerequisites for the login manager
 login_manager = LoginManager(app)
