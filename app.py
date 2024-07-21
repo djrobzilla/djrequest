@@ -24,11 +24,8 @@ app.config['SECRET_KEY'] = os.getenv(
 
 # set db env variables for
 DATABASE_URL = os.getenv('DATABASE_URL')
-if DATABASE_URL:
-    app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL.replace(
-        "postgres://", "postgresql://", 1)
-else:
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://djrobzilla:{os.getenv("POSTGRES_DJROBZILLA_PASS")}@localhost/djrequest'
+app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL.replace(
+    "postgres://", "postgresql://", 1)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # initialize flask db hooks
