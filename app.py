@@ -22,9 +22,10 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv(
     'DJ_REQUEST_SECRET_KEY', 'default_secret_key')
 
-# set db env variables for security
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(
-    'DATABASE_URL').replace("postgres://", "postgresql://")
+# set db env variables for
+uri = os.getenv('DATABASE_URL')
+app.config['SQLALCHEMY_DATABASE_URI'] = uri.replace(
+    "postgres://", "postgresql://")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # initialize flask db hooks
