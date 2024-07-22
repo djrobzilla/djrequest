@@ -2909,3 +2909,15 @@
 2024-07-21 17:57:07,626 - INFO - 127.0.0.1 - - [21/Jul/2024 17:57:07] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
 2024-07-21 17:57:07,677 - INFO - 127.0.0.1 - - [21/Jul/2024 17:57:07] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
 2024-07-21 17:57:07,679 - INFO - 127.0.0.1 - - [21/Jul/2024 17:57:07] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-21 21:19:07,524 - ERROR - Error: Path doesn't exist: '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/migrations'.  Please use the 'init' command to create a new scripts folder.
+2024-07-21 21:20:10,554 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 21:20:10,554 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 21:20:10,560 - INFO -  * Restarting with stat
+2024-07-21 21:20:13,667 - WARNING -  * Debugger is active!
+2024-07-21 21:20:13,668 - INFO -  * Debugger PIN: 638-040-965
+2024-07-21 21:20:14,748 - INFO - 127.0.0.1 - - [21/Jul/2024 21:20:14] "GET / HTTP/1.1" 200 -
+2024-07-21 21:20:14,766 - INFO - 127.0.0.1 - - [21/Jul/2024 21:20:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-21 21:20:14,769 - INFO - 127.0.0.1 - - [21/Jul/2024 21:20:14] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-21 21:20:14,823 - INFO - 127.0.0.1 - - [21/Jul/2024 21:20:14] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-21 21:20:14,823 - INFO - 127.0.0.1 - - [21/Jul/2024 21:20:14] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -

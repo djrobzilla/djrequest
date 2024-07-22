@@ -91,7 +91,7 @@ class Playlist(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     ended_at = db.Column(db.DateTime)
-    tracks = db.relationship('Track', backref='Playlist', lazy=True)
+    tracks = db.relationship('Track', backref='playlist', lazy=True)
 
 # login classes
 
