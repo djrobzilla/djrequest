@@ -66,7 +66,6 @@ header ul {
 }
 header li {
     display: inline;
-    padding: 0 20px 0 20px;
 }
 header #branding {
     float: left;
@@ -79,6 +78,24 @@ header nav {
     margin-top: auto;
     margin-left: auto;
 }
+
+.inactive a {
+    color: white;
+}
+.nav-link {
+    color: rgb(214, 214, 214);
+    transition: background-color 0.3s ease;
+}
+
+.active:hover a {
+    background-color: #004a9a;
+}
+
+.inactive:hover {
+    color: white;
+    background-color: #ffffff;
+}
+
 .banner img {
     height: 150px;
     float: left;
@@ -89,6 +106,8 @@ header nav {
     width: 100%;
     margin: 0;
     overflow: visible;
+    padding-left: 0;
+    padding-right: 0;
 }
 .sidebar {
     width: 300px; 
@@ -124,13 +143,17 @@ h1 {
 .played { color: green; }
 .unplayed { color: rgb(255, 166, 0); }
 
+.submitform {
+    text-align: center;
+}
+
 /* footer styling */
 
 footer {
     background: #333;
     color: #fff;
     border-top: #000 1px solid;
-    padding: 5px;
+    padding: 10px;
     padding-left: 20px;
     margin-top: auto;
 }
@@ -165,6 +188,7 @@ table tr:hover {
 table tr.played {
     text-decoration: line-through;
     color: green;
+    background-color: rgb(206, 255, 206);
 }
 
 table tr.unplayed {
@@ -222,11 +246,11 @@ table td.unplayed {
 }
 
 /* Button Styling */
-button {
-    background-color: #1a73e8; /* Dark blue background */
-    color: #fff; /* Light text */
+.btn {
+    background-color: #007bff; 
+    color: #ffffff; 
     border: none;
-    border-radius: 20px; /* Rounded corners */
+    border-radius: 20px; 
     padding: 10px 20px;
     margin-top: 5px;;
     font-size: 16px;
@@ -235,8 +259,8 @@ button {
     font-family: Montserrat, sans-serif;
 }
 
-button:hover {
-    background-color: #155ab6; 
+.btn:hover {
+    background-color: hsl(211, 100%, 29%); 
 }
 
 .btn-danger {
@@ -246,17 +270,17 @@ button:hover {
 }
 
 .btn-danger:hover {
-    background-color: #9b1b28; /* Darker red on hover */
+    background-color: #9b1b28;
 }
 
 .btn-success {
-    background-color: #28a745; /* Green background */
-    color: #fff; /* White text */
+    background-color: #28a745;
+    color: #fff;
     text-align: center;
 }
 
 .btn-success:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #218838; 
 }
 
 .btn-warning {
@@ -269,7 +293,6 @@ button:hover {
     background-color: #e0a800; /* Darker yellow on hover */
 }
 
-/* Upvote Button Styling */
 .upvote-button {
     background-color: green; 
     color: white;
@@ -305,10 +328,6 @@ button:hover {
 @media (max-width: 768px) {
     body {
         font-family: Urbanist, sans-serif;
-    }
-
-    header {
-        min-height: 202px;
     }
 
     .header-container {
@@ -348,6 +367,10 @@ button:hover {
         background: #333;
         color: #fff;
         text-align: center;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     nav a {
@@ -358,7 +381,7 @@ button:hover {
 
     nav ul {
         display: flex;
-        flex-direction: column; /* Stack nav items vertically */
+        flex-direction: row; /* Stack nav items vertically */
         align-items: center; /* Center nav items */
         padding: 0;
     }
@@ -388,6 +411,7 @@ button:hover {
         border-top: #000 1px solid;
         padding: 0px;
         padding-left: 0px;
+        padding-top: 10px;
         text-align: center;
     }
 

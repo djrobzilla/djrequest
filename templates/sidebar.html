@@ -5,19 +5,19 @@
         {% if current_user.is_admin %}
             <p>   
             <form action="{{ url_for('end_playlist') }}" method="post" style="display:inline;" onsubmit="return confirm('Are you sure you want to end the current playlist?');">
-                <button type="submit">End Current Playlist</button>
+                <button type="submit" class="btn btn-primary">End Current Playlist</button>
             </form>
             </p> 
         {% else %}
         {% endif %}
         <p>
             <form action="{{ url_for('logout') }}" method="post" style="display:inline;">
-                <button type="submit">Logout</button>
+                <button type="submit" class="btn btn-primary">Logout</button>
             </form>
         </p>
         {% else %}
             <form action="{{ url_for('login') }}" method="post" style="display:inline;">
-                <button type="submit">Login</button>
+                <button type="submit" class="btn btn-primary">Login</button>
             </form>
     {% endif %}
 </div>
