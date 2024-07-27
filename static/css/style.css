@@ -108,6 +108,7 @@ header nav {
     overflow: visible;
     padding-left: 0;
     padding-right: 0;
+    max-width: 100%;
 }
 .sidebar {
     width: 300px; 
@@ -120,6 +121,9 @@ header nav {
 .content {
     flex: 1; 
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h1 {
     font-size: 24px;
@@ -324,6 +328,10 @@ table td.unplayed {
     margin: 0;
 }
 
+h2 {
+    text-align: center;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     body {
@@ -354,7 +362,9 @@ table td.unplayed {
 
     .content {
         width: 100%; /* Make content full width */
-        padding: 12px;
+        align-items: normal;
+        padding: 0;
+        padding-top: 15px;
     }
 
     button {
