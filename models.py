@@ -1,10 +1,17 @@
-from extensions import db 
+from extensions import db
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, BooleanField, SubmitField
 from wtforms.validators import DataRequired, EqualTo, ValidationError
 from datetime import datetime
+
+# create a simple table to create relationships 
+# between users, tracks and upvotes
+upvotes = db.Table('upvotes',
+                   db.Column('user_id', db.Integer, db.ForeignKey('user.id'), primary_key=True),
+                   db.Column('track_id', db.Integer, db.ForeignKey('track.id'), primary_key=True)
+)
 
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -20,6 +27,11 @@ class User(UserMixin, db.Model):
 
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
+    
+    # keep tally of which tracks have been upvoted 
+    # by which "upvoters", aka users who have upvoted
+    upvoted_tracks = db.relationship('Track', secondary=upvotes, lazy='subquery',
+                                     backref=db.backref('upvoters', lazy=True))
 
 
 class Track(db.Model):
@@ -33,6 +45,9 @@ class Track(db.Model):
     playlist_id = db.Column(db.Integer, db.ForeignKey('playlist.id'))
     user_id = db.Column(db.Integer, db.ForeignKey(
         'user.id'), nullable=True)
+    
+    # record upvotes on each track
+    upvotes = db.Column(db.Integer, default=0)
 
 
 class Playlist(db.Model):

@@ -4948,3 +4948,149 @@
 2024-07-27 18:24:19,452 - INFO - 127.0.0.1 - - [27/Jul/2024 18:24:19] "GET / HTTP/1.1" 200 -
 2024-07-27 18:24:19,498 - INFO - 127.0.0.1 - - [27/Jul/2024 18:24:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2024-07-27 18:24:19,505 - INFO - 127.0.0.1 - - [27/Jul/2024 18:24:19] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-29 10:14:36,934 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-29 10:14:36,935 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-29 10:14:36,946 - INFO -  * Restarting with stat
+2024-07-29 10:14:40,153 - WARNING -  * Debugger is active!
+2024-07-29 10:14:40,154 - INFO -  * Debugger PIN: 638-040-965
+2024-07-29 10:14:49,507 - INFO - 127.0.0.1 - - [29/Jul/2024 10:14:49] "GET / HTTP/1.1" 200 -
+2024-07-29 10:14:49,526 - INFO - 127.0.0.1 - - [29/Jul/2024 10:14:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-07-29 10:14:49,570 - INFO - 127.0.0.1 - - [29/Jul/2024 10:14:49] "GET /static/images/djrq.png HTTP/1.1" 200 -
+2024-07-29 10:14:49,593 - INFO - 127.0.0.1 - - [29/Jul/2024 10:14:49] "GET /static/fonts/Urbanist-Regular.ttf HTTP/1.1" 200 -
+2024-07-29 10:14:49,678 - INFO - 127.0.0.1 - - [29/Jul/2024 10:14:49] "GET /static/fonts/Montserrat-Regular.ttf HTTP/1.1" 200 -
+2024-07-29 10:14:53,618 - INFO - 127.0.0.1 - - [29/Jul/2024 10:14:53] "GET /login HTTP/1.1" 200 -
+2024-07-29 10:14:53,662 - INFO - 127.0.0.1 - - [29/Jul/2024 10:14:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-29 10:14:53,664 - INFO - 127.0.0.1 - - [29/Jul/2024 10:14:53] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-29 10:14:54,199 - INFO - 127.0.0.1 - - [29/Jul/2024 10:14:54] "GET /register HTTP/1.1" 200 -
+2024-07-29 10:14:54,233 - INFO - 127.0.0.1 - - [29/Jul/2024 10:14:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-29 10:14:54,250 - INFO - 127.0.0.1 - - [29/Jul/2024 10:14:54] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-29 10:15:01,410 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:01] "GET /login HTTP/1.1" 200 -
+2024-07-29 10:15:01,438 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-29 10:15:01,447 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:01] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-29 10:15:02,737 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:02] "GET / HTTP/1.1" 200 -
+2024-07-29 10:15:02,784 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-29 10:15:02,786 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:02] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-29 10:15:04,356 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:04] "GET /login HTTP/1.1" 200 -
+2024-07-29 10:15:04,404 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-29 10:15:04,406 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:04] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-29 10:15:33,712 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:33] "GET /register HTTP/1.1" 200 -
+2024-07-29 10:15:33,746 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-29 10:15:33,753 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:33] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-29 10:15:35,285 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:35] "GET / HTTP/1.1" 200 -
+2024-07-29 10:15:35,321 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-29 10:15:35,330 - INFO - 127.0.0.1 - - [29/Jul/2024 10:15:35] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 12:53:09,619 - INFO - 127.0.0.1 - - [30/Jul/2024 12:53:09] "GET / HTTP/1.1" 200 -
+2024-07-30 12:53:09,640 - INFO - 127.0.0.1 - - [30/Jul/2024 12:53:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 12:53:09,683 - INFO - 127.0.0.1 - - [30/Jul/2024 12:53:09] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 12:53:09,709 - INFO - 127.0.0.1 - - [30/Jul/2024 12:53:09] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-30 12:53:09,793 - INFO - 127.0.0.1 - - [30/Jul/2024 12:53:09] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-30 12:53:15,565 - INFO - 127.0.0.1 - - [30/Jul/2024 12:53:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-30 12:53:19,725 - INFO - 127.0.0.1 - - [30/Jul/2024 12:53:19] "GET /login HTTP/1.1" 200 -
+2024-07-30 12:53:19,774 - INFO - 127.0.0.1 - - [30/Jul/2024 12:53:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 12:53:19,777 - INFO - 127.0.0.1 - - [30/Jul/2024 12:53:19] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 12:53:30,268 - INFO - 127.0.0.1 - - [30/Jul/2024 12:53:30] "GET /register HTTP/1.1" 200 -
+2024-07-30 12:53:30,296 - INFO - 127.0.0.1 - - [30/Jul/2024 12:53:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 12:53:30,307 - INFO - 127.0.0.1 - - [30/Jul/2024 12:53:30] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:18:23,742 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/models.py', reloading
+2024-07-30 13:18:23,810 - INFO -  * Restarting with stat
+2024-07-30 13:33:35,404 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-30 13:33:35,405 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-30 13:33:35,418 - INFO -  * Restarting with stat
+2024-07-30 13:33:38,611 - WARNING -  * Debugger is active!
+2024-07-30 13:33:38,612 - INFO -  * Debugger PIN: 638-040-965
+2024-07-30 13:33:39,531 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:39] "GET / HTTP/1.1" 200 -
+2024-07-30 13:33:39,586 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:33:39,587 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:39] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:33:39,612 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:39] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-30 13:33:39,612 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:39] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-30 13:33:56,426 - INFO - Flash Message - Category: success, Message: Track requested successfully by Anonymous!
+2024-07-30 13:33:56,427 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:56] "[32mPOST /request HTTP/1.1[0m" 302 -
+2024-07-30 13:33:56,442 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:56] "GET / HTTP/1.1" 200 -
+2024-07-30 13:33:56,481 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:33:56,495 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:56] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:33:56,514 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:56] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-30 13:33:56,515 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:56] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-30 13:33:58,573 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:58] "[32mPOST /upvote/1 HTTP/1.1[0m" 302 -
+2024-07-30 13:33:58,595 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:58] "GET /login?next=/upvote/1 HTTP/1.1" 200 -
+2024-07-30 13:33:58,626 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:33:58,638 - INFO - 127.0.0.1 - - [30/Jul/2024 13:33:58] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:34:04,121 - INFO - Flash Message - Category: danger, Message: Invalid username or password
+2024-07-30 13:34:04,122 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-07-30 13:34:04,135 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:04] "GET /login HTTP/1.1" 200 -
+2024-07-30 13:34:04,175 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:34:04,189 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:04] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:34:20,912 - INFO - Flash Message - Category: danger, Message: Invalid username or password
+2024-07-30 13:34:20,913 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-07-30 13:34:20,926 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:20] "GET /login HTTP/1.1" 200 -
+2024-07-30 13:34:20,974 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:34:20,993 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:20] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:34:33,292 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:33] "GET /register HTTP/1.1" 200 -
+2024-07-30 13:34:33,321 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:34:33,339 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:33] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:34:39,828 - INFO - Flash Message - Category: success, Message: Congratulations, you are now a registered user!
+2024-07-30 13:34:39,829 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:39] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-07-30 13:34:39,839 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:39] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-07-30 13:34:39,869 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:39] "GET / HTTP/1.1" 200 -
+2024-07-30 13:34:39,921 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:34:39,923 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:39] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:34:42,055 - INFO - Flash Message - Category: success, Message: Your upvote has been recorded!
+2024-07-30 13:34:42,055 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:42] "[32mPOST /upvote/1 HTTP/1.1[0m" 302 -
+2024-07-30 13:34:42,074 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:42] "GET / HTTP/1.1" 200 -
+2024-07-30 13:34:42,107 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:34:42,130 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:42] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:34:43,527 - INFO - Flash Message - Category: success, Message: Your upvote has been recorded!
+2024-07-30 13:34:43,528 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:43] "[32mPOST /upvote/1 HTTP/1.1[0m" 302 -
+2024-07-30 13:34:43,544 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:43] "GET / HTTP/1.1" 200 -
+2024-07-30 13:34:43,580 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:34:43,592 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:43] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:34:48,505 - INFO - Flash Message - Category: success, Message: Your upvote has been recorded!
+2024-07-30 13:34:48,505 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:48] "[32mPOST /upvote/1 HTTP/1.1[0m" 302 -
+2024-07-30 13:34:48,521 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:48] "GET / HTTP/1.1" 200 -
+2024-07-30 13:34:48,580 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:34:48,581 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:48] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:34:49,940 - INFO - Flash Message - Category: success, Message: Your upvote has been recorded!
+2024-07-30 13:34:49,941 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:49] "[32mPOST /upvote/1 HTTP/1.1[0m" 302 -
+2024-07-30 13:34:49,958 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:49] "GET / HTTP/1.1" 200 -
+2024-07-30 13:34:49,999 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:34:50,019 - INFO - 127.0.0.1 - - [30/Jul/2024 13:34:50] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:36:32,446 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/routes.py', reloading
+2024-07-30 13:36:32,514 - INFO -  * Restarting with stat
+2024-07-30 13:36:35,703 - WARNING -  * Debugger is active!
+2024-07-30 13:36:35,703 - INFO -  * Debugger PIN: 638-040-965
+2024-07-30 13:36:38,290 - INFO - 127.0.0.1 - - [30/Jul/2024 13:36:38] "GET / HTTP/1.1" 200 -
+2024-07-30 13:36:38,337 - INFO - 127.0.0.1 - - [30/Jul/2024 13:36:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:36:38,340 - INFO - 127.0.0.1 - - [30/Jul/2024 13:36:38] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:36:38,358 - INFO - 127.0.0.1 - - [30/Jul/2024 13:36:38] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-30 13:36:38,359 - INFO - 127.0.0.1 - - [30/Jul/2024 13:36:38] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-07-30 13:36:39,689 - INFO - Flash Message - Category: success, Message: Your upvote has been recorded!
+2024-07-30 13:36:39,690 - INFO - 127.0.0.1 - - [30/Jul/2024 13:36:39] "[32mPOST /upvote/1 HTTP/1.1[0m" 302 -
+2024-07-30 13:36:39,707 - INFO - 127.0.0.1 - - [30/Jul/2024 13:36:39] "GET / HTTP/1.1" 200 -
+2024-07-30 13:36:39,741 - INFO - 127.0.0.1 - - [30/Jul/2024 13:36:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:36:39,755 - INFO - 127.0.0.1 - - [30/Jul/2024 13:36:39] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:36:41,318 - INFO - Flash Message - Category: warning, Message: You have already upvoted this track.
+2024-07-30 13:36:41,320 - INFO - 127.0.0.1 - - [30/Jul/2024 13:36:41] "[32mPOST /upvote/1 HTTP/1.1[0m" 302 -
+2024-07-30 13:36:41,336 - INFO - 127.0.0.1 - - [30/Jul/2024 13:36:41] "GET / HTTP/1.1" 200 -
+2024-07-30 13:36:41,372 - INFO - 127.0.0.1 - - [30/Jul/2024 13:36:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:36:41,382 - INFO - 127.0.0.1 - - [30/Jul/2024 13:36:41] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:37:07,487 - INFO - Flash Message - Category: warning, Message: You have already upvoted this track.
+2024-07-30 13:37:07,488 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:07] "[32mPOST /upvote/1 HTTP/1.1[0m" 302 -
+2024-07-30 13:37:07,503 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:07] "GET / HTTP/1.1" 200 -
+2024-07-30 13:37:07,535 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:37:07,550 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:07] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:37:29,597 - INFO - Flash Message - Category: success, Message: Track requested successfully by djrobzilla!
+2024-07-30 13:37:29,598 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:29] "[32mPOST /request HTTP/1.1[0m" 302 -
+2024-07-30 13:37:29,614 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:29] "GET / HTTP/1.1" 200 -
+2024-07-30 13:37:29,647 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:37:29,661 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:29] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:37:31,707 - INFO - Flash Message - Category: success, Message: Your upvote has been recorded!
+2024-07-30 13:37:31,708 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:31] "[32mPOST /upvote/2 HTTP/1.1[0m" 302 -
+2024-07-30 13:37:31,723 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:31] "GET / HTTP/1.1" 200 -
+2024-07-30 13:37:31,760 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:37:31,767 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:31] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-07-30 13:37:32,923 - INFO - Flash Message - Category: warning, Message: You have already upvoted this track.
+2024-07-30 13:37:32,925 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:32] "[32mPOST /upvote/2 HTTP/1.1[0m" 302 -
+2024-07-30 13:37:32,940 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:32] "GET / HTTP/1.1" 200 -
+2024-07-30 13:37:32,977 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-07-30 13:37:32,991 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:32] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -

@@ -160,8 +160,13 @@ def request_track():
 @login_required
 def upvote(track_id):
     track = Track.query.get_or_404(track_id)
-    track.upvotes += 1
-    db.session.commit()
+    if track not in current_user.upvoted_tracks:
+        current_user.upvoted_tracks.append(track)
+        track.upvotes += 1
+        db.session.commit()
+        flash('Your upvote has been recorded!', 'success')
+    else:
+        flash('You have already upvoted this track.', 'warning')
     return redirect(url_for('index'))
 
 
