@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+  ingress:
+    image: nginx:1.27 # Nginx makes a fantastic reverse proxy!
+    container_name: ingress
+    ports:
+      - 80:80 # We're bridging these to the host level
+    volumes:
+    # The container name (for dns lookup inside the docker network) is 
+    # hard-coded in nginx.conf. If you want to extend this in "production", 
+    # you'll need to sed the config file.
+      - ./nginx.conf:/etc/nginx/nginx.conf
+
+  djrequest:
+    container_name: djrequest
+    image: djrobzilla/djrequest:dev
+    platform: linux/amd64
+    environment:
+      DB_PASSWORD: $PG_PW # Env var. Don't forget to set it!
+      DB_USER: dbuser
+      DB_NAME: djrequest
+      DB_HOST: djrequestdb
+      DB_PORT: 5432
+    expose:
+      - 80 # We only want this exposed in the internal, private docker network.
+    build:
+      context: ./
+      dockerfile: Dockerfile
+
+  djrequestdb:
+    container_name: djrequestdb
+    image: postgres:12.22
+    restart: always
+    platform: linux/amd64
+    environment:
+      POSTGRES_USER: dbuser
+      POSTGRES_PASSWORD: $PG_PW
+      POSTGRES_DB: djrequest
+      PGDATA: /var/lib/postgresql/data/djrequestdata
+    expose:
+      - 5432 # We only want this exposed in the internal, private docker network.
+    volumes:
+      - djrequest-db:/var/lib/postgresql/data/djrequestdata
+
+volumes:
+  djrequest-db:

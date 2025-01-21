@@ -16,15 +16,21 @@ app.config['SECRET_KEY'] = os.getenv(
 app.config['DEBUG'] = True
 
 # set db env variables for
-DATABASE_URL = os.getenv('DATABASE_URL')
-app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL.replace(
-    "postgres://", "postgresql://", 1)
+DB_HOST = os.getenv('DB_HOST')
+DB_PORT = os.getenv('DB_PORT')
+DB_NAME = os.getenv('DB_NAME')
+DB_USER = os.getenv('DB_USER')
+DB_PASSWORD = os.getenv('DB_PASSWORD')
+
+# Create our URL
+DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
 
 db.init_app(app)
 migrate = Migrate(app, db)
 
 # connect the postgres db
-conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+conn = psycopg2.connect(DATABASE_URL, sslmode='disable')
 
 # setting up prerequisites for the login manager
 login_manager = LoginManager(app)
@@ -41,7 +47,8 @@ from models import User, Track, Playlist
 # Routes
 from routes import *
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     with app.app_context():
         db.create_all()
-    app.run(debug=True)
+    app.debug = True
+    app.run(host="0.0.0.0", port=80)
