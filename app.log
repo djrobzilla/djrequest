@@ -5094,3 +5094,40 @@
 2024-07-30 13:37:32,940 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:32] "GET / HTTP/1.1" 200 -
 2024-07-30 13:37:32,977 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2024-07-30 13:37:32,991 - INFO - 127.0.0.1 - - [30/Jul/2024 13:37:32] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-08-01 15:16:37,544 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-01 15:16:37,544 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-01 15:16:37,556 - INFO -  * Restarting with stat
+2024-08-01 15:16:41,788 - WARNING -  * Debugger is active!
+2024-08-01 15:16:41,790 - INFO -  * Debugger PIN: 638-040-965
+2024-08-01 15:16:43,290 - INFO - 127.0.0.1 - - [01/Aug/2024 15:16:43] "GET / HTTP/1.1" 200 -
+2024-08-01 15:16:43,374 - INFO - 127.0.0.1 - - [01/Aug/2024 15:16:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-08-01 15:16:43,400 - INFO - 127.0.0.1 - - [01/Aug/2024 15:16:43] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-08-01 15:16:43,459 - INFO - 127.0.0.1 - - [01/Aug/2024 15:16:43] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-08-01 15:16:43,460 - INFO - 127.0.0.1 - - [01/Aug/2024 15:16:43] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-08-01 20:25:29,920 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-01 20:25:29,920 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-01 20:25:29,931 - INFO -  * Restarting with stat
+2024-08-01 20:25:33,279 - WARNING -  * Debugger is active!
+2024-08-01 20:25:33,280 - INFO -  * Debugger PIN: 638-040-965
+2024-08-01 20:25:34,282 - INFO - 127.0.0.1 - - [01/Aug/2024 20:25:34] "GET /register HTTP/1.1" 200 -
+2024-08-01 20:25:35,612 - INFO - 127.0.0.1 - - [01/Aug/2024 20:25:35] "GET /register HTTP/1.1" 200 -
+2024-08-01 20:25:35,664 - INFO - 127.0.0.1 - - [01/Aug/2024 20:25:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-08-01 20:25:35,672 - INFO - 127.0.0.1 - - [01/Aug/2024 20:25:35] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-08-01 20:25:35,702 - INFO - 127.0.0.1 - - [01/Aug/2024 20:25:35] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-08-01 20:25:35,703 - INFO - 127.0.0.1 - - [01/Aug/2024 20:25:35] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-08-01 20:25:48,949 - INFO - Flash Message - Category: success, Message: Congratulations, you are now a registered user!
+2024-08-01 20:25:48,950 - INFO - 127.0.0.1 - - [01/Aug/2024 20:25:48] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-08-01 20:25:48,961 - INFO - 127.0.0.1 - - [01/Aug/2024 20:25:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-08-01 20:25:49,006 - INFO - 127.0.0.1 - - [01/Aug/2024 20:25:49] "GET / HTTP/1.1" 200 -
+2024-08-01 20:25:49,051 - INFO - 127.0.0.1 - - [01/Aug/2024 20:25:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-08-01 20:25:49,053 - INFO - 127.0.0.1 - - [01/Aug/2024 20:25:49] "[36mGET /static/images/djrq.png HTTP/1.1[0m" 304 -
+2024-08-01 20:25:49,062 - INFO - 127.0.0.1 - - [01/Aug/2024 20:25:49] "[36mGET /static/fonts/Urbanist-Regular.ttf HTTP/1.1[0m" 304 -
+2024-08-01 20:25:49,063 - INFO - 127.0.0.1 - - [01/Aug/2024 20:25:49] "[36mGET /static/fonts/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2024-08-01 20:33:51,351 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/test_app.py', reloading
+2024-08-01 20:33:51,421 - INFO -  * Restarting with stat
+2024-08-01 20:33:54,791 - WARNING -  * Debugger is active!
+2024-08-01 20:33:54,791 - INFO -  * Debugger PIN: 638-040-965
+2024-08-01 20:35:08,788 - INFO -  * Detected change in '/mnt/c/Users/rober/Downloads/Documents/Code/experiments/ZtM Exercise/ai experiments/djrequest/test_app.py', reloading
+2024-08-01 20:35:08,845 - INFO -  * Restarting with stat

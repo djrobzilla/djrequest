@@ -24,7 +24,10 @@ db.init_app(app)
 migrate = Migrate(app, db)
 
 # connect the postgres db
-conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+try:
+    conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+except psycopg2.Error as e:
+    raise RuntimeError(f"Failed to connect to the database: {str(e)}") from e
 
 # setting up prerequisites for the login manager
 login_manager = LoginManager(app)
