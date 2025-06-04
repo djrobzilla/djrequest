@@ -15,7 +15,7 @@ app.config['SECRET_KEY'] = os.getenv(
     'DJ_REQUEST_SECRET_KEY', 'default_secret_key')
 app.config['DEBUG'] = True
 
-# set db env variables for
+# Set database environment variables
 DB_HOST = os.getenv('DB_HOST')
 DB_PORT = os.getenv('DB_PORT')
 DB_NAME = os.getenv('DB_NAME')
